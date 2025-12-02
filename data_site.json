@@ -1,0 +1,1199 @@
+[
+    {
+        "name": "Garen",
+        "win_rate": 51.14,
+        "matchups": [
+            {
+                "vs": "Swain",
+                "win_rate": 43.99,
+                "games": 316
+            },
+            {
+                "vs": "Quinn",
+                "win_rate": 44.29,
+                "games": 700
+            },
+            {
+                "vs": "Vayne",
+                "win_rate": 44.44,
+                "games": 747
+            }
+        ]
+    },
+    {
+        "name": "Gangplank",
+        "win_rate": 50.23,
+        "matchups": [
+            {
+                "vs": "Cho'Gath",
+                "win_rate": 44.96,
+                "games": 814
+            },
+            {
+                "vs": "Kled",
+                "win_rate": 45.47,
+                "games": 486
+            },
+            {
+                "vs": "Malphite",
+                "win_rate": 46.02,
+                "games": 1645
+            }
+        ]
+    },
+    {
+        "name": "Gragas",
+        "win_rate": 50.36,
+        "matchups": [
+            {
+                "vs": "Vayne",
+                "win_rate": 43.87,
+                "games": 212
+            },
+            {
+                "vs": "Tahm Kench",
+                "win_rate": 44.74,
+                "games": 76
+            },
+            {
+                "vs": "Akali",
+                "win_rate": 44.76,
+                "games": 286
+            }
+        ]
+    },
+    {
+        "name": "Gwen",
+        "win_rate": 50.5,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 40.3,
+                "games": 665
+            },
+            {
+                "vs": "Riven",
+                "win_rate": 40.43,
+                "games": 1076
+            },
+            {
+                "vs": "Vayne",
+                "win_rate": 44.56,
+                "games": 193
+            }
+        ]
+    },
+    {
+        "name": "Gnar",
+        "win_rate": 50.11,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 42.21,
+                "games": 1952
+            },
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 45.58,
+                "games": 147
+            },
+            {
+                "vs": "Singed",
+                "win_rate": 45.7,
+                "games": 512
+            }
+        ]
+    },
+    {
+        "name": "Nasus",
+        "win_rate": 49.08,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 38.26,
+                "games": 115
+            },
+            {
+                "vs": "Urgot",
+                "win_rate": 40.05,
+                "games": 397
+            },
+            {
+                "vs": "Poppy",
+                "win_rate": 41.43,
+                "games": 140
+            }
+        ]
+    },
+    {
+        "name": "Darius",
+        "win_rate": 50.14,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 37.93,
+                "games": 261
+            },
+            {
+                "vs": "Quinn",
+                "win_rate": 44.2,
+                "games": 767
+            },
+            {
+                "vs": "Riven",
+                "win_rate": 44.92,
+                "games": 1997
+            }
+        ]
+    },
+    {
+        "name": "Ryze",
+        "win_rate": 49.38,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 35.92,
+                "games": 103
+            },
+            {
+                "vs": "Quinn",
+                "win_rate": 37.5,
+                "games": 136
+            },
+            {
+                "vs": "Irelia",
+                "win_rate": 40.34,
+                "games": 238
+            }
+        ]
+    },
+    {
+        "name": "Rumble",
+        "win_rate": 50.0,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 42.86,
+                "games": 140
+            },
+            {
+                "vs": "Cho'Gath",
+                "win_rate": 44.07,
+                "games": 565
+            },
+            {
+                "vs": "Singed",
+                "win_rate": 44.51,
+                "games": 319
+            }
+        ]
+    },
+    {
+        "name": "Renekton",
+        "win_rate": 49.99,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 41.67,
+                "games": 216
+            },
+            {
+                "vs": "Ryze",
+                "win_rate": 43.49,
+                "games": 269
+            },
+            {
+                "vs": "Kayle",
+                "win_rate": 44.19,
+                "games": 955
+            }
+        ]
+    },
+    {
+        "name": "Riven",
+        "win_rate": 51.73,
+        "matchups": [
+            {
+                "vs": "Quinn",
+                "win_rate": 44.78,
+                "games": 565
+            },
+            {
+                "vs": "Malphite",
+                "win_rate": 46.28,
+                "games": 2379
+            },
+            {
+                "vs": "Kled",
+                "win_rate": 46.42,
+                "games": 489
+            }
+        ]
+    },
+    {
+        "name": "Malphite",
+        "win_rate": 53.5,
+        "matchups": [
+            {
+                "vs": "Zac",
+                "win_rate": 45.58,
+                "games": 373
+            },
+            {
+                "vs": "Dr. Mundo",
+                "win_rate": 45.77,
+                "games": 2565
+            },
+            {
+                "vs": "Tahm Kench",
+                "win_rate": 46.29,
+                "games": 283
+            }
+        ]
+    },
+    {
+        "name": "Mordekaiser",
+        "win_rate": 50.44,
+        "matchups": [
+            {
+                "vs": "Varus",
+                "win_rate": 43.28,
+                "games": 238
+            },
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 43.3,
+                "games": 261
+            },
+            {
+                "vs": "Singed",
+                "win_rate": 43.4,
+                "games": 758
+            }
+        ]
+    },
+    {
+        "name": "Dr. Mundo",
+        "win_rate": 50.99,
+        "matchups": [
+            {
+                "vs": "Gwen",
+                "win_rate": 42.6,
+                "games": 1763
+            },
+            {
+                "vs": "Kled",
+                "win_rate": 44.19,
+                "games": 396
+            },
+            {
+                "vs": "Irelia",
+                "win_rate": 45.15,
+                "games": 835
+            }
+        ]
+    },
+    {
+        "name": "Varus",
+        "win_rate": 49.71,
+        "matchups": [
+            {
+                "vs": "Teemo",
+                "win_rate": 37.84,
+                "games": 148
+            },
+            {
+                "vs": "Malphite",
+                "win_rate": 39.69,
+                "games": 509
+            },
+            {
+                "vs": "Sion",
+                "win_rate": 40.98,
+                "games": 305
+            }
+        ]
+    },
+    {
+        "name": "Vayne",
+        "win_rate": 51.51,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 35.79,
+                "games": 665
+            },
+            {
+                "vs": "Teemo",
+                "win_rate": 42.34,
+                "games": 359
+            },
+            {
+                "vs": "Kennen",
+                "win_rate": 42.45,
+                "games": 212
+            }
+        ]
+    },
+    {
+        "name": "Volibear",
+        "win_rate": 49.08,
+        "matchups": [
+            {
+                "vs": "Aurora",
+                "win_rate": 36.56,
+                "games": 93
+            },
+            {
+                "vs": "Vayne",
+                "win_rate": 40.95,
+                "games": 210
+            },
+            {
+                "vs": "Jayce",
+                "win_rate": 41.87,
+                "games": 461
+            }
+        ]
+    },
+    {
+        "name": "Vladimir",
+        "win_rate": 50.08,
+        "matchups": [
+            {
+                "vs": "Varus",
+                "win_rate": 44.0,
+                "games": 150
+            },
+            {
+                "vs": "Riven",
+                "win_rate": 44.09,
+                "games": 719
+            },
+            {
+                "vs": "Rumble",
+                "win_rate": 44.78,
+                "games": 364
+            }
+        ]
+    },
+    {
+        "name": "Poppy",
+        "win_rate": 51.59,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 39.04,
+                "games": 187
+            },
+            {
+                "vs": "Urgot",
+                "win_rate": 42.93,
+                "games": 198
+            },
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 43.18,
+                "games": 44
+            }
+        ]
+    },
+    {
+        "name": "Sion",
+        "win_rate": 50.26,
+        "matchups": [
+            {
+                "vs": "Zaahen",
+                "win_rate": 43.79,
+                "games": 3302
+            },
+            {
+                "vs": "Shen",
+                "win_rate": 44.85,
+                "games": 1166
+            },
+            {
+                "vs": "Singed",
+                "win_rate": 45.01,
+                "games": 1062
+            }
+        ]
+    },
+    {
+        "name": "Sett",
+        "win_rate": 51.59,
+        "matchups": [
+            {
+                "vs": "Swain",
+                "win_rate": 43.41,
+                "games": 258
+            },
+            {
+                "vs": "Kennen",
+                "win_rate": 44.68,
+                "games": 761
+            },
+            {
+                "vs": "Vayne",
+                "win_rate": 45.18,
+                "games": 622
+            }
+        ]
+    },
+    {
+        "name": "Shen",
+        "win_rate": 50.72,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 44.14,
+                "games": 580
+            },
+            {
+                "vs": "Warwick",
+                "win_rate": 44.4,
+                "games": 250
+            },
+            {
+                "vs": "Kled",
+                "win_rate": 44.67,
+                "games": 394
+            }
+        ]
+    },
+    {
+        "name": "Swain",
+        "win_rate": 52.14,
+        "matchups": [
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 46.34,
+                "games": 41
+            },
+            {
+                "vs": "Fiora",
+                "win_rate": 46.74,
+                "games": 184
+            },
+            {
+                "vs": "Gwen",
+                "win_rate": 46.85,
+                "games": 143
+            }
+        ]
+    },
+    {
+        "name": "Singed",
+        "win_rate": 53.06,
+        "matchups": [
+            {
+                "vs": "Kennen",
+                "win_rate": 43.39,
+                "games": 348
+            },
+            {
+                "vs": "Olaf",
+                "win_rate": 43.52,
+                "games": 301
+            },
+            {
+                "vs": "Kayle",
+                "win_rate": 45.02,
+                "games": 1075
+            }
+        ]
+    },
+    {
+        "name": "Akali",
+        "win_rate": 49.82,
+        "matchups": [
+            {
+                "vs": "Urgot",
+                "win_rate": 38.79,
+                "games": 214
+            },
+            {
+                "vs": "Riven",
+                "win_rate": 41.8,
+                "games": 445
+            },
+            {
+                "vs": "Ornn",
+                "win_rate": 42.69,
+                "games": 253
+            }
+        ]
+    },
+    {
+        "name": "Aatrox",
+        "win_rate": 49.72,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 44.64,
+                "games": 1306
+            },
+            {
+                "vs": "Kennen",
+                "win_rate": 44.88,
+                "games": 1036
+            },
+            {
+                "vs": "Warwick",
+                "win_rate": 45.05,
+                "games": 748
+            }
+        ]
+    },
+    {
+        "name": "Ambessa",
+        "win_rate": 49.19,
+        "matchups": [
+            {
+                "vs": "Kennen",
+                "win_rate": 43.04,
+                "games": 941
+            },
+            {
+                "vs": "Warwick",
+                "win_rate": 44.25,
+                "games": 843
+            },
+            {
+                "vs": "Irelia",
+                "win_rate": 44.87,
+                "games": 2113
+            }
+        ]
+    },
+    {
+        "name": "Yasuo",
+        "win_rate": 49.3,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 42.23,
+                "games": 412
+            },
+            {
+                "vs": "Illaoi",
+                "win_rate": 42.62,
+                "games": 237
+            },
+            {
+                "vs": "Darius",
+                "win_rate": 43.78,
+                "games": 1101
+            }
+        ]
+    },
+    {
+        "name": "Wukong",
+        "win_rate": 49.05,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 31.43,
+                "games": 105
+            },
+            {
+                "vs": "Zac",
+                "win_rate": 35.0,
+                "games": 40
+            },
+            {
+                "vs": "Teemo",
+                "win_rate": 35.58,
+                "games": 104
+            }
+        ]
+    },
+    {
+        "name": "Aurora",
+        "win_rate": 49.97,
+        "matchups": [
+            {
+                "vs": "Akali",
+                "win_rate": 35.42,
+                "games": 96
+            },
+            {
+                "vs": "Nasus",
+                "win_rate": 39.22,
+                "games": 102
+            },
+            {
+                "vs": "Quinn",
+                "win_rate": 41.94,
+                "games": 124
+            }
+        ]
+    },
+    {
+        "name": "Ornn",
+        "win_rate": 50.38,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 41.57,
+                "games": 587
+            },
+            {
+                "vs": "Shen",
+                "win_rate": 43.68,
+                "games": 838
+            },
+            {
+                "vs": "Zac",
+                "win_rate": 44.72,
+                "games": 161
+            }
+        ]
+    },
+    {
+        "name": "Olaf",
+        "win_rate": 51.48,
+        "matchups": [
+            {
+                "vs": "Kayle",
+                "win_rate": 43.23,
+                "games": 310
+            },
+            {
+                "vs": "Akali",
+                "win_rate": 43.4,
+                "games": 265
+            },
+            {
+                "vs": "Gragas",
+                "win_rate": 43.91,
+                "games": 353
+            }
+        ]
+    },
+    {
+        "name": "Yone",
+        "win_rate": 48.6,
+        "matchups": [
+            {
+                "vs": "Kennen",
+                "win_rate": 38.54,
+                "games": 480
+            },
+            {
+                "vs": "Vayne",
+                "win_rate": 39.68,
+                "games": 252
+            },
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 41.95,
+                "games": 205
+            }
+        ]
+    },
+    {
+        "name": "Yorick",
+        "win_rate": 50.15,
+        "matchups": [
+            {
+                "vs": "Trundle",
+                "win_rate": 42.06,
+                "games": 107
+            },
+            {
+                "vs": "Kled",
+                "win_rate": 42.18,
+                "games": 275
+            },
+            {
+                "vs": "Irelia",
+                "win_rate": 42.62,
+                "games": 901
+            }
+        ]
+    },
+    {
+        "name": "Urgot",
+        "win_rate": 52.12,
+        "matchups": [
+            {
+                "vs": "Zac",
+                "win_rate": 45.54,
+                "games": 101
+            },
+            {
+                "vs": "Aurora",
+                "win_rate": 47.37,
+                "games": 152
+            },
+            {
+                "vs": "Kayle",
+                "win_rate": 47.53,
+                "games": 749
+            }
+        ]
+    },
+    {
+        "name": "Warwick",
+        "win_rate": 51.87,
+        "matchups": [
+            {
+                "vs": "Vayne",
+                "win_rate": 37.19,
+                "games": 121
+            },
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 40.62,
+                "games": 64
+            },
+            {
+                "vs": "Varus",
+                "win_rate": 41.44,
+                "games": 111
+            }
+        ]
+    },
+    {
+        "name": "Irelia",
+        "win_rate": 50.52,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 42.34,
+                "games": 1991
+            },
+            {
+                "vs": "Jax",
+                "win_rate": 43.6,
+                "games": 2030
+            },
+            {
+                "vs": "Teemo",
+                "win_rate": 44.16,
+                "games": 462
+            }
+        ]
+    },
+    {
+        "name": "Illaoi",
+        "win_rate": 51.23,
+        "matchups": [
+            {
+                "vs": "Varus",
+                "win_rate": 40.95,
+                "games": 105
+            },
+            {
+                "vs": "Aurora",
+                "win_rate": 41.89,
+                "games": 74
+            },
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 42.86,
+                "games": 84
+            }
+        ]
+    },
+    {
+        "name": "Zac",
+        "win_rate": 50.62,
+        "matchups": [
+            {
+                "vs": "Ryze",
+                "win_rate": 36.96,
+                "games": 46
+            },
+            {
+                "vs": "Swain",
+                "win_rate": 41.03,
+                "games": 39
+            },
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 41.27,
+                "games": 63
+            }
+        ]
+    },
+    {
+        "name": "Zaahen",
+        "win_rate": 51.62,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 46.39,
+                "games": 9797
+            },
+            {
+                "vs": "Teemo",
+                "win_rate": 46.78,
+                "games": 5528
+            },
+            {
+                "vs": "Kayle",
+                "win_rate": 47.06,
+                "games": 4792
+            }
+        ]
+    },
+    {
+        "name": "Jax",
+        "win_rate": 50.68,
+        "matchups": [
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 41.61,
+                "games": 286
+            },
+            {
+                "vs": "Tahm Kench",
+                "win_rate": 41.76,
+                "games": 170
+            },
+            {
+                "vs": "Swain",
+                "win_rate": 43.75,
+                "games": 240
+            }
+        ]
+    },
+    {
+        "name": "Jayce",
+        "win_rate": 48.89,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 42.08,
+                "games": 4634
+            },
+            {
+                "vs": "Yorick",
+                "win_rate": 43.85,
+                "games": 1049
+            },
+            {
+                "vs": "Irelia",
+                "win_rate": 44.09,
+                "games": 2447
+            }
+        ]
+    },
+    {
+        "name": "Cho'Gath",
+        "win_rate": 50.85,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 41.96,
+                "games": 143
+            },
+            {
+                "vs": "Illaoi",
+                "win_rate": 43.24,
+                "games": 377
+            },
+            {
+                "vs": "Swain",
+                "win_rate": 43.32,
+                "games": 187
+            }
+        ]
+    },
+    {
+        "name": "Camille",
+        "win_rate": 50.28,
+        "matchups": [
+            {
+                "vs": "Swain",
+                "win_rate": 39.67,
+                "games": 121
+            },
+            {
+                "vs": "Teemo",
+                "win_rate": 42.54,
+                "games": 456
+            },
+            {
+                "vs": "Vladimir",
+                "win_rate": 44.39,
+                "games": 588
+            }
+        ]
+    },
+    {
+        "name": "Cassiopeia",
+        "win_rate": 51.47,
+        "matchups": [
+            {
+                "vs": "Quinn",
+                "win_rate": 40.82,
+                "games": 98
+            },
+            {
+                "vs": "Olaf",
+                "win_rate": 42.65,
+                "games": 136
+            },
+            {
+                "vs": "Garen",
+                "win_rate": 42.79,
+                "games": 222
+            }
+        ]
+    },
+    {
+        "name": "Kennen",
+        "win_rate": 51.95,
+        "matchups": [
+            {
+                "vs": "Swain",
+                "win_rate": 44.16,
+                "games": 77
+            },
+            {
+                "vs": "Dr. Mundo",
+                "win_rate": 44.36,
+                "games": 877
+            },
+            {
+                "vs": "Quinn",
+                "win_rate": 46.5,
+                "games": 314
+            }
+        ]
+    },
+    {
+        "name": "Kayle",
+        "win_rate": 52.41,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 42.88,
+                "games": 1362
+            },
+            {
+                "vs": "Tahm Kench",
+                "win_rate": 43.33,
+                "games": 150
+            },
+            {
+                "vs": "Swain",
+                "win_rate": 44.3,
+                "games": 158
+            }
+        ]
+    },
+    {
+        "name": "Quinn",
+        "win_rate": 52.88,
+        "matchups": [
+            {
+                "vs": "Malphite",
+                "win_rate": 42.92,
+                "games": 890
+            },
+            {
+                "vs": "Urgot",
+                "win_rate": 45.91,
+                "games": 281
+            },
+            {
+                "vs": "Irelia",
+                "win_rate": 47.98,
+                "games": 544
+            }
+        ]
+    },
+    {
+        "name": "K'Sante",
+        "win_rate": 47.22,
+        "matchups": [
+            {
+                "vs": "Kayle",
+                "win_rate": 39.58,
+                "games": 1137
+            },
+            {
+                "vs": "Singed",
+                "win_rate": 41.67,
+                "games": 660
+            },
+            {
+                "vs": "Fiora",
+                "win_rate": 42.39,
+                "games": 1512
+            }
+        ]
+    },
+    {
+        "name": "Kled",
+        "win_rate": 52.05,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 46.34,
+                "games": 82
+            },
+            {
+                "vs": "Rumble",
+                "win_rate": 46.41,
+                "games": 237
+            },
+            {
+                "vs": "Singed",
+                "win_rate": 46.69,
+                "games": 257
+            }
+        ]
+    },
+    {
+        "name": "Tahm Kench",
+        "win_rate": 48.54,
+        "matchups": [
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 20.0,
+                "games": 30
+            },
+            {
+                "vs": "Shen",
+                "win_rate": 37.23,
+                "games": 137
+            },
+            {
+                "vs": "Yorick",
+                "win_rate": 38.27,
+                "games": 81
+            }
+        ]
+    },
+    {
+        "name": "Trundle",
+        "win_rate": 47.84,
+        "matchups": [
+            {
+                "vs": "Kennen",
+                "win_rate": 32.14,
+                "games": 56
+            },
+            {
+                "vs": "Quinn",
+                "win_rate": 33.33,
+                "games": 42
+            },
+            {
+                "vs": "Akali",
+                "win_rate": 37.74,
+                "games": 53
+            }
+        ]
+    },
+    {
+        "name": "Tryndamere",
+        "win_rate": 49.41,
+        "matchups": [
+            {
+                "vs": "Tahm Kench",
+                "win_rate": 36.0,
+                "games": 100
+            },
+            {
+                "vs": "Zac",
+                "win_rate": 40.2,
+                "games": 102
+            },
+            {
+                "vs": "Kennen",
+                "win_rate": 42.31,
+                "games": 260
+            }
+        ]
+    },
+    {
+        "name": "Teemo",
+        "win_rate": 51.68,
+        "matchups": [
+            {
+                "vs": "Cassiopeia",
+                "win_rate": 44.53,
+                "games": 247
+            },
+            {
+                "vs": "Ornn",
+                "win_rate": 45.37,
+                "games": 637
+            },
+            {
+                "vs": "Olaf",
+                "win_rate": 45.67,
+                "games": 381
+            }
+        ]
+    },
+    {
+        "name": "Pantheon",
+        "win_rate": 50.78,
+        "matchups": [
+            {
+                "vs": "Singed",
+                "win_rate": 40.86,
+                "games": 301
+            },
+            {
+                "vs": "Wukong",
+                "win_rate": 42.86,
+                "games": 119
+            },
+            {
+                "vs": "Kennen",
+                "win_rate": 44.26,
+                "games": 244
+            }
+        ]
+    },
+    {
+        "name": "Fiora",
+        "win_rate": 51.22,
+        "matchups": [
+            {
+                "vs": "Heimerdinger",
+                "win_rate": 43.95,
+                "games": 248
+            },
+            {
+                "vs": "Malphite",
+                "win_rate": 44.53,
+                "games": 2250
+            },
+            {
+                "vs": "Urgot",
+                "win_rate": 46.29,
+                "games": 836
+            }
+        ]
+    },
+    {
+        "name": "Heimerdinger",
+        "win_rate": 51.79,
+        "matchups": [
+            {
+                "vs": "Quinn",
+                "win_rate": 38.66,
+                "games": 119
+            },
+            {
+                "vs": "Ryze",
+                "win_rate": 42.06,
+                "games": 126
+            },
+            {
+                "vs": "Yasuo",
+                "win_rate": 43.12,
+                "games": 269
+            }
+        ]
+    }
+]

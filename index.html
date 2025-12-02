@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Top Matchups</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent: #536dfe; /* Bleu/Violet style hextech */
+            --win: #4caf50;
+            --lose: #f44336;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent);
+            margin-bottom: 30px;
+        }
+
+        /* Barre de recherche */
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            background-color: var(--card-bg);
+            border: 2px solid #333;
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+        }
+        .search-box:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        /* Grille des champions */
+        #champion-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .champ-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 20px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #333;
+        }
+
+        .champ-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            border-color: var(--accent);
+        }
+
+        .champ-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .champ-name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .champ-wr {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: #333;
+        }
+
+        .matchup-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 0.9em;
+        }
+
+        .matchup-name {
+            color: #aaa;
+        }
+
+        .matchup-stat {
+            font-weight: bold;
+        }
+
+        .good-matchup { color: var(--win); }
+        .bad-matchup { color: var(--lose); }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>LoL Top Matchups (Patch Live)</h1>
+        
+        <input type="text" id="search" class="search-box" placeholder="Rechercher un champion (ex: Garen, Zaahen...)...">
+
+        <div id="champion-list">
+            <p style="text-align:center; color: #666;">Chargement des données...</p>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour déterminer la couleur du Winrate
+        function getColor(wr) {
+            if (wr >= 51) return 'good-matchup';
+            if (wr <= 49) return 'bad-matchup';
+            return ''; // Neutre
+        }
+
+        // Chargement du fichier JSON
+        fetch('data_site.json')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('champion-list');
+                const searchInput = document.getElementById('search');
+
+                // Fonction d'affichage
+                function displayChampions(filter = "") {
+                    list.innerHTML = ""; // On vide la liste
+                    
+                    // On trie par nom
+                    data.sort((a, b) => a.name.localeCompare(b.name));
+
+                    data.forEach(champ => {
+                        // Filtre de recherche
+                        if (filter && !champ.name.toLowerCase().includes(filter.toLowerCase())) {
+                            return;
+                        }
+
+                        // Création de la carte HTML
+                        const card = document.createElement('div');
+                        card.className = 'champ-card';
+
+                        // Calcul couleur winrate global
+                        let wrColor = getColor(champ.win_rate);
+
+                        // On prépare les 3 pires matchups (ceux contre qui on perd le plus)
+                        // On trie les matchups par winrate croissant (les plus bas d'abord)
+                        let counters = [...champ.matchups].sort((a, b) => a.win_rate - b.win_rate).slice(0, 3);
+                        
+                        let countersHtml = counters.map(c => `
+                            <div class="matchup-row">
+                                <span class="matchup-name">vs ${c.vs}</span>
+                                <span class="matchup-stat ${getColor(c.win_rate)}">${c.win_rate}%</span>
+                            </div>
+                        `).join('');
+
+                        card.innerHTML = `
+                            <div class="champ-header">
+                                <span class="champ-name">${champ.name}</span>
+                                <span class="champ-wr ${wrColor}">${champ.win_rate}% WR</span>
+                            </div>
+                            <div style="font-size:0.8em; color:#888; margin-bottom:10px;">Difficile contre :</div>
+                            ${countersHtml}
+                        `;
+
+                        list.appendChild(card);
+                    });
+                }
+
+                // Affichage initial
+                displayChampions();
+
+                // Écouteur pour la recherche
+                searchInput.addEventListener('input', (e) => {
+                    displayChampions(e.target.value);
+                });
+            })
+            .catch(err => {
+                document.getElementById('champion-list').innerHTML = 
+                    "<h3 style='color:red; text-align:center'>Erreur : Impossible de lire data_site.json.<br>Lancez un serveur local (Live Server) ou vérifiez le nom du fichier.</h3>";
+                console.error(err);
+            });
+    </script>
+</body>
+</html>
