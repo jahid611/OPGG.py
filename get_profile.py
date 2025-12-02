@@ -1,95 +1,103 @@
 import json
+import os
 from opgg.opgg import OPGG
 from opgg.params import Region
 
 def main():
+    print("--- Démarrage de la récupération du profil ---")
     opgg = OPGG()
     
-    # --- VOS INFOS ---
+    # --- TES INFOS ---
     target_name = "jaydmj23#JSYD"
     target_region = Region.EUW
     # -----------------
 
-    print(f"Recherche du joueur {target_name} ({target_region})...")
+    print(f"1. Recherche du joueur {target_name}...")
     try:
         search_results = opgg.search(target_name, target_region)
     except Exception as e:
-        print(f"Erreur de recherche : {e}")
+        print(f"❌ Erreur critique recherche : {e}")
         return
 
     if not search_results:
-        print("Joueur introuvable. Vérifiez l'orthographe exacte (Pseudo#TAG).")
+        print("❌ Joueur introuvable.")
         return
 
     player = search_results[0].summoner
-    print(f" -> Trouvé : {player.internal_name} (Niveau {player.level})")
+    my_summoner_id = player.summoner_id
     
-    # 2. On récupère l'historique
-    print(f"Récupération de l'historique...")
+    print(f"   -> Trouvé : {player.internal_name} (Niveau {player.level})")
+    
+    print("2. Téléchargement des derniers matchs...")
     try:
-        # On tente de récupérer 10 games
         games = opgg.get_recent_games(search_result=search_results[0], results=10)
     except Exception as e:
-        print(f"Impossible de récupérer l'historique : {e}")
+        print(f"❌ Erreur historique : {e}")
         return
     
-    # CORRECTION JSON : On convertit l'URL en string avec str()
+    # Préparation des données pour le site
     profile_data = {
-        "name": player.internal_name,
+        "name": player.game_name,
+        "tag": player.tagline,
         "level": player.level,
-        "image_url": str(player.profile_image_url), 
+        "image_url": str(player.profile_image_url), # Important: convertir en texte
         "games": []
     }
 
-    print(f" -> {len(games)} parties récupérées. Analyse en cours...")
+    print(f"   -> {len(games)} matchs récupérés. Extraction des stats...")
 
+    count = 0
     for i, game in enumerate(games):
-        # Sécurité pour les listes imbriquées
-        if isinstance(game, list):
-            if len(game) > 0:
-                game = game[0]
-            else:
-                continue
+        if isinstance(game, list): game = game[0]
 
-        # DEBUG : Si myData est vide, on affiche ce qu'il y a dans l'objet game pour comprendre
-        if not hasattr(game, 'myData') or game.myData is None:
-            print(f" [Info] Partie n°{i+1} ignorée (myData vide).")
-            # Décommentez la ligne ci-dessous si vous voulez voir le contenu brut pour déboguer
-            # print(f"   -> Contenu brut : {game}") 
-            continue
-
-        if not hasattr(game.myData, 'stats') or game.myData.stats is None:
-            print(f" [Info] Partie n°{i+1} sans stats.")
-            continue
+        # --- RECHERCHE DU JOUEUR DANS LA LISTE DES 10 PARTICIPANTS ---
+        my_participant = None
+        if hasattr(game, 'participants'):
+            for p in game.participants:
+                if p.summoner.summoner_id == my_summoner_id:
+                    my_participant = p
+                    break
+        
+        if my_participant is None:
+            continue # On passe si on ne te trouve pas
 
         try:
-            stats = game.myData.stats
+            # On récupère TES stats spécifiques
+            stats = my_participant.stats
             
-            tier_info = "Normal"
-            if hasattr(game, 'average_tier_info') and game.average_tier_info:
-                tier_info = game.average_tier_info.tier
+            # Gestion du rang (Emerald, Platinum, etc.)
+            tier_txt = "Unranked"
+            if hasattr(my_participant, 'tier_info') and my_participant.tier_info:
+                 t = my_participant.tier_info
+                 if t.tier:
+                    tier_txt = f"{t.tier} {t.division} ({t.lp} LP)"
 
             match_info = {
-                "champion_id": game.myData.champion_id,
+                "champion_id": my_participant.champion_id,
                 "win": stats.result == "WIN",
                 "kills": stats.kill,
                 "deaths": stats.death,
                 "assists": stats.assist,
-                "op_score": game.myData.op_score,
-                "tier": tier_info
+                "op_score": stats.op_score,
+                "tier": tier_txt,
+                "role": my_participant.position
             }
+            
             profile_data["games"].append(match_info)
-            print(f" [OK] Partie n°{i+1} ajoutée (Champ ID: {game.myData.champion_id})")
+            count += 1
             
         except Exception as e:
-            print(f" [Erreur] Problème lecture partie n°{i+1}: {e}")
+            print(f"   [!] Erreur lecture match {i+1}: {e}")
             continue
 
-    # Sauvegarde
-    with open("profile.json", "w", encoding='utf-8') as f:
-        json.dump(profile_data, f, indent=4, ensure_ascii=False)
-    
-    print(f"\n✅ Succès ! {len(profile_data['games'])} parties sauvegardées dans profile.json.")
+    # 3. Sauvegarde
+    print("3. Création du fichier profile.json...")
+    try:
+        with open("profile.json", "w", encoding='utf-8') as f:
+            json.dump(profile_data, f, indent=4, ensure_ascii=False)
+        print(f"\n✅ SUCCÈS ! {count} parties sauvegardées dans profile.json")
+    except Exception as e:
+        print(f"❌ Erreur sauvegarde : {e}")
 
 if __name__ == "__main__":
     main()
