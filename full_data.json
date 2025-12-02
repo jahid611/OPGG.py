@@ -1,0 +1,3670 @@
+{
+    "profile": {
+        "name": "Jaydmj23",
+        "tag": "JSYD",
+        "level": 394,
+        "icon_url": "https://opgg-static.akamaized.net/meta/images/profile_icons/profileIcon4417.jpg",
+        "ladder_rank": "N/A",
+        "solo_tier": "PLATINUM 2",
+        "solo_lp": 29
+    },
+    "stats_summary": {
+        "kills": 89,
+        "deaths": 64,
+        "assists": 75,
+        "wins": 5,
+        "games": 10
+    },
+    "history": [
+        {
+            "game_id": "WfYe8TQY7YRQP7u56RlOUlE9O4-1mdlvNBLAuDGUAUE=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "29m 34s",
+            "result": "LOSE",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "8/5/6",
+                "k": 8,
+                "d": 5,
+                "a": 6,
+                "damage": 23928,
+                "wards": 10,
+                "vision": 28,
+                "cs": 204,
+                "cs_min": 6.9,
+                "items": [
+                    3156,
+                    6699,
+                    6610,
+                    3111,
+                    2021,
+                    1037
+                ],
+                "op_score": 6.334,
+                "op_rank": 4,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "Chtiwa tartoche",
+                        "tag": "EUW",
+                        "champ_id": 86,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8010,
+                        "kda": "4/6/2",
+                        "k": 4,
+                        "d": 6,
+                        "a": 2,
+                        "damage": 16719,
+                        "wards": 6,
+                        "vision": 8,
+                        "cs": 203,
+                        "cs_min": 6.9,
+                        "items": [
+                            6631,
+                            1054,
+                            3046,
+                            1037,
+                            3006,
+                            1038
+                        ],
+                        "op_score": 3.14,
+                        "op_rank": 9,
+                        "tier": "EMERALD 4"
+                    },
+                    {
+                        "name": "CesarVapor",
+                        "tag": "BOSS",
+                        "champ_id": 45,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8229,
+                        "kda": "4/1/1",
+                        "k": 4,
+                        "d": 1,
+                        "a": 1,
+                        "damage": 11024,
+                        "wards": 6,
+                        "vision": 13,
+                        "cs": 242,
+                        "cs_min": 8.2,
+                        "items": [
+                            3040,
+                            3089,
+                            6657,
+                            1052,
+                            0,
+                            3020
+                        ],
+                        "op_score": 4.063,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Hydraak",
+                        "tag": "DRK",
+                        "champ_id": 517,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            3,
+                            4
+                        ],
+                        "runes": 8112,
+                        "kda": "1/7/11",
+                        "k": 1,
+                        "d": 7,
+                        "a": 11,
+                        "damage": 8922,
+                        "wards": 21,
+                        "vision": 47,
+                        "cs": 35,
+                        "cs_min": 1.2,
+                        "items": [
+                            3869,
+                            3152,
+                            3157,
+                            0,
+                            3020,
+                            0
+                        ],
+                        "op_score": 4.123,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Outplay Prodigy",
+                        "tag": "EUW",
+                        "champ_id": 222,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8008,
+                        "kda": "3/6/3",
+                        "k": 3,
+                        "d": 6,
+                        "a": 3,
+                        "damage": 6516,
+                        "wards": 10,
+                        "vision": 25,
+                        "cs": 195,
+                        "cs_min": 6.6,
+                        "items": [
+                            3031,
+                            3086,
+                            3032,
+                            3006,
+                            1042,
+                            0
+                        ],
+                        "op_score": 2.548,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "8/5/6",
+                        "k": 8,
+                        "d": 5,
+                        "a": 6,
+                        "damage": 23928,
+                        "wards": 10,
+                        "vision": 28,
+                        "cs": 204,
+                        "cs_min": 6.9,
+                        "items": [
+                            3156,
+                            6699,
+                            6610,
+                            3111,
+                            2021,
+                            1037
+                        ],
+                        "op_score": 6.334,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "muted",
+                        "tag": "4665",
+                        "champ_id": 523,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8005,
+                        "kda": "7/1/4",
+                        "k": 7,
+                        "d": 1,
+                        "a": 4,
+                        "damage": 27497,
+                        "wards": 8,
+                        "vision": 14,
+                        "cs": 268,
+                        "cs_min": 9.1,
+                        "items": [
+                            1055,
+                            3033,
+                            6676,
+                            3031,
+                            3172,
+                            1018
+                        ],
+                        "op_score": 6.885,
+                        "op_rank": 1,
+                        "tier": "EMERALD 3"
+                    },
+                    {
+                        "name": "NicoIe",
+                        "tag": "EUW",
+                        "champ_id": 902,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            3
+                        ],
+                        "runes": 8465,
+                        "kda": "0/1/14",
+                        "k": 0,
+                        "d": 1,
+                        "a": 14,
+                        "damage": 2920,
+                        "wards": 34,
+                        "vision": 55,
+                        "cs": 22,
+                        "cs_min": 0.7,
+                        "items": [
+                            3870,
+                            0,
+                            3504,
+                            6620,
+                            3171,
+                            1052
+                        ],
+                        "op_score": 6.563,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Kwiatowosci",
+                        "tag": "2137",
+                        "champ_id": 112,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8214,
+                        "kda": "10/4/3",
+                        "k": 10,
+                        "d": 4,
+                        "a": 3,
+                        "damage": 27707,
+                        "wards": 10,
+                        "vision": 13,
+                        "cs": 253,
+                        "cs_min": 8.6,
+                        "items": [
+                            2420,
+                            3020,
+                            1056,
+                            4645,
+                            3165,
+                            6655
+                        ],
+                        "op_score": 6.491,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "MuhammadIsFalse",
+                        "tag": "123",
+                        "champ_id": 67,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            6,
+                            4
+                        ],
+                        "runes": 8008,
+                        "kda": "2/7/5",
+                        "k": 2,
+                        "d": 7,
+                        "a": 5,
+                        "damage": 26866,
+                        "wards": 11,
+                        "vision": 24,
+                        "cs": 219,
+                        "cs_min": 7.4,
+                        "items": [
+                            3073,
+                            3172,
+                            3153,
+                            1043,
+                            0,
+                            0
+                        ],
+                        "op_score": 3.683,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "moonlé",
+                        "tag": "Aksu",
+                        "champ_id": 131,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8010,
+                        "kda": "6/7/9",
+                        "k": 6,
+                        "d": 7,
+                        "a": 9,
+                        "damage": 20334,
+                        "wards": 8,
+                        "vision": 38,
+                        "cs": 242,
+                        "cs_min": 8.2,
+                        "items": [
+                            3175,
+                            0,
+                            3157,
+                            6653,
+                            3115,
+                            0
+                        ],
+                        "op_score": 5.877,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 1"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YQEtxC81zifxIsaReTAc09aXq-AWxnKD2s=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "21m 40s",
+            "result": "WIN",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "RED",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "7/3/5",
+                "k": 7,
+                "d": 3,
+                "a": 5,
+                "damage": 15557,
+                "wards": 5,
+                "vision": 22,
+                "cs": 140,
+                "cs_min": 6.5,
+                "items": [
+                    6610,
+                    6699,
+                    3047,
+                    1036,
+                    0,
+                    0
+                ],
+                "op_score": 6.72,
+                "op_rank": 2,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "goldystar",
+                        "tag": "EUW",
+                        "champ_id": 61,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8230,
+                        "kda": "7/3/1",
+                        "k": 7,
+                        "d": 3,
+                        "a": 1,
+                        "damage": 17096,
+                        "wards": 9,
+                        "vision": 20,
+                        "cs": 159,
+                        "cs_min": 7.3,
+                        "items": [
+                            1056,
+                            2503,
+                            4628,
+                            3175,
+                            1052,
+                            1052
+                        ],
+                        "op_score": 5.155,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Jin Stark",
+                        "tag": "EUW",
+                        "champ_id": 55,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8112,
+                        "kda": "4/7/1",
+                        "k": 4,
+                        "d": 7,
+                        "a": 1,
+                        "damage": 13837,
+                        "wards": 8,
+                        "vision": 10,
+                        "cs": 97,
+                        "cs_min": 4.5,
+                        "items": [
+                            2031,
+                            3153,
+                            1055,
+                            1043,
+                            3051,
+                            1001
+                        ],
+                        "op_score": 2.151,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Lightbulb man",
+                        "tag": "EUW",
+                        "champ_id": 107,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8010,
+                        "kda": "0/7/6",
+                        "k": 0,
+                        "d": 7,
+                        "a": 6,
+                        "damage": 8840,
+                        "wards": 1,
+                        "vision": 9,
+                        "cs": 142,
+                        "cs_min": 6.6,
+                        "items": [
+                            3142,
+                            6698,
+                            0,
+                            1001,
+                            1036,
+                            0
+                        ],
+                        "op_score": 1.975,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Vsery",
+                        "tag": "V0ID",
+                        "champ_id": 154,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8439,
+                        "kda": "1/0/5",
+                        "k": 1,
+                        "d": 0,
+                        "a": 5,
+                        "damage": 6576,
+                        "wards": 13,
+                        "vision": 33,
+                        "cs": 63,
+                        "cs_min": 2.9,
+                        "items": [
+                            3869,
+                            3068,
+                            2055,
+                            1001,
+                            3067,
+                            3211
+                        ],
+                        "op_score": 4.761,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "PayvzZ",
+                        "tag": "999",
+                        "champ_id": 236,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8005,
+                        "kda": "1/5/3",
+                        "k": 1,
+                        "d": 5,
+                        "a": 3,
+                        "damage": 9553,
+                        "wards": 7,
+                        "vision": 8,
+                        "cs": 160,
+                        "cs_min": 7.4,
+                        "items": [
+                            3158,
+                            3508,
+                            1018,
+                            1038,
+                            1037,
+                            0
+                        ],
+                        "op_score": 2.185,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "greenBurner",
+                        "tag": "EUW",
+                        "champ_id": 81,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            21,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "5/4/5",
+                        "k": 5,
+                        "d": 4,
+                        "a": 5,
+                        "damage": 14063,
+                        "wards": 7,
+                        "vision": 11,
+                        "cs": 159,
+                        "cs_min": 7.3,
+                        "items": [
+                            3078,
+                            3042,
+                            0,
+                            3047,
+                            0,
+                            0
+                        ],
+                        "op_score": 5.317,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Artifaex",
+                        "tag": "EUW",
+                        "champ_id": 115,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8229,
+                        "kda": "4/3/4",
+                        "k": 4,
+                        "d": 3,
+                        "a": 4,
+                        "damage": 12844,
+                        "wards": 6,
+                        "vision": 10,
+                        "cs": 167,
+                        "cs_min": 7.7,
+                        "items": [
+                            1056,
+                            4628,
+                            3020,
+                            6655,
+                            0,
+                            0
+                        ],
+                        "op_score": 4.845,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Brianon",
+                        "tag": "042",
+                        "champ_id": 75,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8021,
+                        "kda": "6/2/5",
+                        "k": 6,
+                        "d": 2,
+                        "a": 5,
+                        "damage": 13291,
+                        "wards": 7,
+                        "vision": 11,
+                        "cs": 146,
+                        "cs_min": 6.7,
+                        "items": [
+                            1054,
+                            3067,
+                            3211,
+                            3047,
+                            3078,
+                            3110
+                        ],
+                        "op_score": 6.516,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "7/3/5",
+                        "k": 7,
+                        "d": 3,
+                        "a": 5,
+                        "damage": 15557,
+                        "wards": 5,
+                        "vision": 22,
+                        "cs": 140,
+                        "cs_min": 6.5,
+                        "items": [
+                            6610,
+                            6699,
+                            3047,
+                            1036,
+                            0,
+                            0
+                        ],
+                        "op_score": 6.72,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "xz00",
+                        "tag": "north",
+                        "champ_id": 432,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            3
+                        ],
+                        "runes": 8112,
+                        "kda": "0/1/12",
+                        "k": 0,
+                        "d": 1,
+                        "a": 12,
+                        "damage": 7805,
+                        "wards": 18,
+                        "vision": 24,
+                        "cs": 16,
+                        "cs_min": 0.7,
+                        "items": [
+                            3869,
+                            3013,
+                            3742,
+                            1052,
+                            0,
+                            0
+                        ],
+                        "op_score": 6.911,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 4"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YTyzHsw2rtn1koZvgZ1eUOtcjT1ekaD1vE=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "28m 35s",
+            "result": "WIN",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "10/7/5",
+                "k": 10,
+                "d": 7,
+                "a": 5,
+                "damage": 24354,
+                "wards": 9,
+                "vision": 20,
+                "cs": 144,
+                "cs_min": 5.0,
+                "items": [
+                    6610,
+                    6699,
+                    3047,
+                    3156,
+                    0,
+                    0
+                ],
+                "op_score": 4.224,
+                "op_rank": 8,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "Thesey",
+                        "tag": "EUW",
+                        "champ_id": 36,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            6
+                        ],
+                        "runes": 8437,
+                        "kda": "3/9/4",
+                        "k": 3,
+                        "d": 9,
+                        "a": 4,
+                        "damage": 15975,
+                        "wards": 10,
+                        "vision": 15,
+                        "cs": 134,
+                        "cs_min": 4.7,
+                        "items": [
+                            3083,
+                            3009,
+                            3084,
+                            3076,
+                            0,
+                            0
+                        ],
+                        "op_score": 1.816,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "CapitaineFlam",
+                        "tag": "euw12",
+                        "champ_id": 89,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8439,
+                        "kda": "1/8/19",
+                        "k": 1,
+                        "d": 8,
+                        "a": 19,
+                        "damage": 11322,
+                        "wards": 29,
+                        "vision": 64,
+                        "cs": 26,
+                        "cs_min": 0.9,
+                        "items": [
+                            3109,
+                            3107,
+                            3876,
+                            3076,
+                            3047,
+                            0
+                        ],
+                        "op_score": 4.41,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Oceaniaqt",
+                        "tag": "EUW",
+                        "champ_id": 145,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            1
+                        ],
+                        "runes": 8008,
+                        "kda": "3/5/10",
+                        "k": 3,
+                        "d": 5,
+                        "a": 10,
+                        "damage": 11405,
+                        "wards": 8,
+                        "vision": 10,
+                        "cs": 181,
+                        "cs_min": 6.3,
+                        "items": [
+                            1055,
+                            6672,
+                            3124,
+                            3006,
+                            3108,
+                            1026
+                        ],
+                        "op_score": 3.7,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "HUNTRIX Rumi",
+                        "tag": "KPDM",
+                        "champ_id": 55,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8112,
+                        "kda": "19/6/8",
+                        "k": 19,
+                        "d": 6,
+                        "a": 8,
+                        "damage": 48925,
+                        "wards": 1,
+                        "vision": 16,
+                        "cs": 207,
+                        "cs_min": 7.2,
+                        "items": [
+                            4645,
+                            3089,
+                            3100,
+                            1082,
+                            3020,
+                            3135
+                        ],
+                        "op_score": 7.87,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "10/7/5",
+                        "k": 10,
+                        "d": 7,
+                        "a": 5,
+                        "damage": 24354,
+                        "wards": 9,
+                        "vision": 20,
+                        "cs": 144,
+                        "cs_min": 5.0,
+                        "items": [
+                            6610,
+                            6699,
+                            3047,
+                            3156,
+                            0,
+                            0
+                        ],
+                        "op_score": 4.224,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "Deglii",
+                        "tag": "EUW",
+                        "champ_id": 412,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            14,
+                            4
+                        ],
+                        "runes": 8465,
+                        "kda": "1/5/20",
+                        "k": 1,
+                        "d": 5,
+                        "a": 20,
+                        "damage": 11215,
+                        "wards": 31,
+                        "vision": 79,
+                        "cs": 33,
+                        "cs_min": 1.2,
+                        "items": [
+                            2055,
+                            3190,
+                            3869,
+                            3109,
+                            3173,
+                            0
+                        ],
+                        "op_score": 5.12,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "OsTia OS",
+                        "tag": "EUW",
+                        "champ_id": 800,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8229,
+                        "kda": "12/10/8",
+                        "k": 12,
+                        "d": 10,
+                        "a": 8,
+                        "damage": 37500,
+                        "wards": 10,
+                        "vision": 16,
+                        "cs": 185,
+                        "cs_min": 6.5,
+                        "items": [
+                            3102,
+                            2503,
+                            6653,
+                            3175,
+                            1052,
+                            0
+                        ],
+                        "op_score": 4.963,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "FeáringJr",
+                        "tag": "EUW",
+                        "champ_id": 22,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            1
+                        ],
+                        "runes": 8008,
+                        "kda": "8/8/14",
+                        "k": 8,
+                        "d": 8,
+                        "a": 14,
+                        "damage": 32300,
+                        "wards": 6,
+                        "vision": 15,
+                        "cs": 183,
+                        "cs_min": 6.4,
+                        "items": [
+                            1033,
+                            3172,
+                            2055,
+                            3046,
+                            6672,
+                            3153
+                        ],
+                        "op_score": 5.583,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "RushGood",
+                        "tag": "EUW",
+                        "champ_id": 77,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8437,
+                        "kda": "6/8/15",
+                        "k": 6,
+                        "d": 8,
+                        "a": 15,
+                        "damage": 24327,
+                        "wards": 7,
+                        "vision": 15,
+                        "cs": 152,
+                        "cs_min": 5.3,
+                        "items": [
+                            1056,
+                            3173,
+                            6653,
+                            3916,
+                            3065,
+                            3066
+                        ],
+                        "op_score": 5.037,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Horixx",
+                        "tag": "EUNE",
+                        "champ_id": 104,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8128,
+                        "kda": "8/5/13",
+                        "k": 8,
+                        "d": 5,
+                        "a": 13,
+                        "damage": 21163,
+                        "wards": 3,
+                        "vision": 20,
+                        "cs": 187,
+                        "cs_min": 6.5,
+                        "items": [
+                            6676,
+                            3142,
+                            3174,
+                            3033,
+                            1036,
+                            0
+                        ],
+                        "op_score": 5.812,
+                        "op_rank": 2,
+                        "tier": "Unranked"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YQalvPEQxPNjEvV1nOGOWbVMDMvh-BJl4w=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "26m 4s",
+            "result": "WIN",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "9/5/16",
+                "k": 9,
+                "d": 5,
+                "a": 16,
+                "damage": 27680,
+                "wards": 4,
+                "vision": 21,
+                "cs": 143,
+                "cs_min": 5.5,
+                "items": [
+                    6699,
+                    3161,
+                    6610,
+                    3047,
+                    0,
+                    0
+                ],
+                "op_score": 8.641,
+                "op_rank": 1,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "Lumira99",
+                        "tag": "EUW",
+                        "champ_id": 25,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8229,
+                        "kda": "4/2/18",
+                        "k": 4,
+                        "d": 2,
+                        "a": 18,
+                        "damage": 14577,
+                        "wards": 23,
+                        "vision": 52,
+                        "cs": 94,
+                        "cs_min": 3.6,
+                        "items": [
+                            3871,
+                            3041,
+                            6653,
+                            3175,
+                            1052,
+                            1052
+                        ],
+                        "op_score": 8.128,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "NAMELESSKING",
+                        "tag": "UNSC",
+                        "champ_id": 134,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8369,
+                        "kda": "11/8/14",
+                        "k": 11,
+                        "d": 8,
+                        "a": 14,
+                        "damage": 30375,
+                        "wards": 8,
+                        "vision": 13,
+                        "cs": 152,
+                        "cs_min": 5.8,
+                        "items": [
+                            3171,
+                            6655,
+                            3041,
+                            4645,
+                            1058,
+                            1058
+                        ],
+                        "op_score": 8.138,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "bastardsheep",
+                        "tag": "EUW",
+                        "champ_id": 114,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "5/3/5",
+                        "k": 5,
+                        "d": 3,
+                        "a": 5,
+                        "damage": 18595,
+                        "wards": 7,
+                        "vision": 12,
+                        "cs": 242,
+                        "cs_min": 9.3,
+                        "items": [
+                            1055,
+                            3074,
+                            3078,
+                            3047,
+                            1057,
+                            3053
+                        ],
+                        "op_score": 5.444,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "solemn lament",
+                        "tag": "vow",
+                        "champ_id": 91,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8112,
+                        "kda": "14/3/8",
+                        "k": 14,
+                        "d": 3,
+                        "a": 8,
+                        "damage": 26427,
+                        "wards": 13,
+                        "vision": 21,
+                        "cs": 146,
+                        "cs_min": 5.6,
+                        "items": [
+                            3142,
+                            6694,
+                            3170,
+                            6701,
+                            1036,
+                            0
+                        ],
+                        "op_score": 8.239,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "9/5/16",
+                        "k": 9,
+                        "d": 5,
+                        "a": 16,
+                        "damage": 27680,
+                        "wards": 4,
+                        "vision": 21,
+                        "cs": 143,
+                        "cs_min": 5.5,
+                        "items": [
+                            6699,
+                            3161,
+                            6610,
+                            3047,
+                            0,
+                            0
+                        ],
+                        "op_score": 8.641,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "Korkenzieher",
+                        "tag": "6969",
+                        "champ_id": 904,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8010,
+                        "kda": "3/8/1",
+                        "k": 3,
+                        "d": 8,
+                        "a": 1,
+                        "damage": 17365,
+                        "wards": 7,
+                        "vision": 12,
+                        "cs": 172,
+                        "cs_min": 6.6,
+                        "items": [
+                            3047,
+                            3078,
+                            6610,
+                            1036,
+                            1028,
+                            1055
+                        ],
+                        "op_score": 2.83,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Speerspitze",
+                        "tag": "xoxo",
+                        "champ_id": 103,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8112,
+                        "kda": "3/5/5",
+                        "k": 3,
+                        "d": 5,
+                        "a": 5,
+                        "damage": 15702,
+                        "wards": 10,
+                        "vision": 18,
+                        "cs": 198,
+                        "cs_min": 7.6,
+                        "items": [
+                            3157,
+                            1058,
+                            3145,
+                            1056,
+                            3118,
+                            3158
+                        ],
+                        "op_score": 4.24,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Gibs",
+                        "tag": "2054",
+                        "champ_id": 22,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8008,
+                        "kda": "3/8/3",
+                        "k": 3,
+                        "d": 8,
+                        "a": 3,
+                        "damage": 13629,
+                        "wards": 0,
+                        "vision": 4,
+                        "cs": 153,
+                        "cs_min": 5.9,
+                        "items": [
+                            3046,
+                            3006,
+                            2010,
+                            6672,
+                            1038,
+                            0
+                        ],
+                        "op_score": 2.887,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "midnight toker",
+                        "tag": "EUW",
+                        "champ_id": 63,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            14,
+                            4
+                        ],
+                        "runes": 8465,
+                        "kda": "7/10/7",
+                        "k": 7,
+                        "d": 10,
+                        "a": 7,
+                        "damage": 21859,
+                        "wards": 28,
+                        "vision": 54,
+                        "cs": 40,
+                        "cs_min": 1.5,
+                        "items": [
+                            6653,
+                            3871,
+                            3916,
+                            3116,
+                            2022,
+                            3020
+                        ],
+                        "op_score": 4.556,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "NBA Draco",
+                        "tag": "EUW",
+                        "champ_id": 254,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8010,
+                        "kda": "4/12/5",
+                        "k": 4,
+                        "d": 12,
+                        "a": 5,
+                        "damage": 15027,
+                        "wards": 2,
+                        "vision": 9,
+                        "cs": 127,
+                        "cs_min": 4.9,
+                        "items": [
+                            1102,
+                            6610,
+                            3071,
+                            3111,
+                            2019,
+                            1036
+                        ],
+                        "op_score": 2.757,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 4"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YRxI6cgePE_zqv5kBI5_9HW3ZVbmWnAzdE=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "25m 28s",
+            "result": "WIN",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "RED",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "9/5/11",
+                "k": 9,
+                "d": 5,
+                "a": 11,
+                "damage": 25526,
+                "wards": 8,
+                "vision": 18,
+                "cs": 150,
+                "cs_min": 5.9,
+                "items": [
+                    6610,
+                    6699,
+                    3047,
+                    3161,
+                    1036,
+                    0
+                ],
+                "op_score": 6.986,
+                "op_rank": 2,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "WEEDxNIGHT",
+                        "tag": "EUW",
+                        "champ_id": 950,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8010,
+                        "kda": "3/7/8",
+                        "k": 3,
+                        "d": 7,
+                        "a": 8,
+                        "damage": 11767,
+                        "wards": 9,
+                        "vision": 22,
+                        "cs": 104,
+                        "cs_min": 4.1,
+                        "items": [
+                            3071,
+                            3009,
+                            6692,
+                            0,
+                            0,
+                            0
+                        ],
+                        "op_score": 3.622,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "KedrasP",
+                        "tag": "EUW",
+                        "champ_id": 115,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8229,
+                        "kda": "3/10/12",
+                        "k": 3,
+                        "d": 10,
+                        "a": 12,
+                        "damage": 28080,
+                        "wards": 6,
+                        "vision": 7,
+                        "cs": 171,
+                        "cs_min": 6.7,
+                        "items": [
+                            1056,
+                            3020,
+                            6655,
+                            4628,
+                            1058,
+                            3145
+                        ],
+                        "op_score": 4.559,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Caedus",
+                        "tag": "93160",
+                        "champ_id": 111,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            3,
+                            4
+                        ],
+                        "runes": 8439,
+                        "kda": "4/7/12",
+                        "k": 4,
+                        "d": 7,
+                        "a": 12,
+                        "damage": 12368,
+                        "wards": 18,
+                        "vision": 35,
+                        "cs": 16,
+                        "cs_min": 0.6,
+                        "items": [
+                            3869,
+                            3107,
+                            2055,
+                            3109,
+                            3047,
+                            3076
+                        ],
+                        "op_score": 4.706,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "yeqiufengaohuya",
+                        "tag": "0001",
+                        "champ_id": 166,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8005,
+                        "kda": "12/10/5",
+                        "k": 12,
+                        "d": 10,
+                        "a": 5,
+                        "damage": 25980,
+                        "wards": 8,
+                        "vision": 8,
+                        "cs": 131,
+                        "cs_min": 5.1,
+                        "items": [
+                            3036,
+                            3087,
+                            6676,
+                            1038,
+                            1037,
+                            3013
+                        ],
+                        "op_score": 5.294,
+                        "op_rank": 5,
+                        "tier": "Unranked"
+                    },
+                    {
+                        "name": "akrUwU",
+                        "tag": "187",
+                        "champ_id": 98,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8437,
+                        "kda": "3/5/7",
+                        "k": 3,
+                        "d": 5,
+                        "a": 7,
+                        "damage": 16058,
+                        "wards": 7,
+                        "vision": 15,
+                        "cs": 133,
+                        "cs_min": 5.2,
+                        "items": [
+                            1054,
+                            3748,
+                            3047,
+                            3075,
+                            3066,
+                            1028
+                        ],
+                        "op_score": 4.049,
+                        "op_rank": 9,
+                        "tier": "GOLD 3"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "Haribobo",
+                        "tag": "2269",
+                        "champ_id": 902,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            7
+                        ],
+                        "runes": 8214,
+                        "kda": "1/5/23",
+                        "k": 1,
+                        "d": 5,
+                        "a": 23,
+                        "damage": 5312,
+                        "wards": 18,
+                        "vision": 46,
+                        "cs": 17,
+                        "cs_min": 0.7,
+                        "items": [
+                            3870,
+                            3107,
+                            2055,
+                            3171,
+                            3504,
+                            3113
+                        ],
+                        "op_score": 6.861,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Am I Dreaming",
+                        "tag": "444",
+                        "champ_id": 904,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "5/5/5",
+                        "k": 5,
+                        "d": 5,
+                        "a": 5,
+                        "damage": 16071,
+                        "wards": 3,
+                        "vision": 11,
+                        "cs": 161,
+                        "cs_min": 6.3,
+                        "items": [
+                            3078,
+                            6610,
+                            3047,
+                            1054,
+                            2021,
+                            1028
+                        ],
+                        "op_score": 4.237,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "C υ t e",
+                        "tag": "0002",
+                        "champ_id": 222,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8008,
+                        "kda": "17/6/4",
+                        "k": 17,
+                        "d": 6,
+                        "a": 4,
+                        "damage": 35786,
+                        "wards": 8,
+                        "vision": 13,
+                        "cs": 164,
+                        "cs_min": 6.4,
+                        "items": [
+                            6672,
+                            3031,
+                            3172,
+                            3085,
+                            1055,
+                            0
+                        ],
+                        "op_score": 7.441,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "OMG ITS ZACINE",
+                        "tag": "EUW",
+                        "champ_id": 69,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8010,
+                        "kda": "7/4/12",
+                        "k": 7,
+                        "d": 4,
+                        "a": 12,
+                        "damage": 19621,
+                        "wards": 7,
+                        "vision": 11,
+                        "cs": 158,
+                        "cs_min": 6.2,
+                        "items": [
+                            6653,
+                            3040,
+                            6657,
+                            0,
+                            0,
+                            0
+                        ],
+                        "op_score": 6.47,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "9/5/11",
+                        "k": 9,
+                        "d": 5,
+                        "a": 11,
+                        "damage": 25526,
+                        "wards": 8,
+                        "vision": 18,
+                        "cs": 150,
+                        "cs_min": 5.9,
+                        "items": [
+                            6610,
+                            6699,
+                            3047,
+                            3161,
+                            1036,
+                            0
+                        ],
+                        "op_score": 6.986,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 2"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YSRmZb55Yjh4zP5wXZIlo7LTWhX-Gc9RxU=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "21m 34s",
+            "result": "LOSE",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "TOP",
+                "spells": [
+                    12,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "11/5/2",
+                "k": 11,
+                "d": 5,
+                "a": 2,
+                "damage": 27946,
+                "wards": 8,
+                "vision": 16,
+                "cs": 148,
+                "cs_min": 6.9,
+                "items": [
+                    1055,
+                    6692,
+                    3111,
+                    3161,
+                    2021,
+                    3133
+                ],
+                "op_score": 6.626,
+                "op_rank": 3,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "samibetis",
+                        "tag": "EUW",
+                        "champ_id": 360,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            3,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "4/6/4",
+                        "k": 4,
+                        "d": 6,
+                        "a": 4,
+                        "damage": 13002,
+                        "wards": 4,
+                        "vision": 5,
+                        "cs": 104,
+                        "cs_min": 4.8,
+                        "items": [
+                            3031,
+                            6676,
+                            3111,
+                            0,
+                            0,
+                            0
+                        ],
+                        "op_score": 3.859,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Joli Gâchis",
+                        "tag": "EUW",
+                        "champ_id": 16,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            7
+                        ],
+                        "runes": 8214,
+                        "kda": "2/7/4",
+                        "k": 2,
+                        "d": 7,
+                        "a": 4,
+                        "damage": 3811,
+                        "wards": 22,
+                        "vision": 46,
+                        "cs": 18,
+                        "cs_min": 0.8,
+                        "items": [
+                            6617,
+                            3870,
+                            2055,
+                            3067,
+                            3114,
+                            1001
+                        ],
+                        "op_score": 2.266,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "winsho",
+                        "tag": "EUW",
+                        "champ_id": 17,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8005,
+                        "kda": "1/8/9",
+                        "k": 1,
+                        "d": 8,
+                        "a": 9,
+                        "damage": 14785,
+                        "wards": 8,
+                        "vision": 15,
+                        "cs": 108,
+                        "cs_min": 5.0,
+                        "items": [
+                            1102,
+                            3115,
+                            3006,
+                            2508,
+                            3147,
+                            0
+                        ],
+                        "op_score": 3.752,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Neyoo",
+                        "tag": "669",
+                        "champ_id": 10,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8005,
+                        "kda": "0/5/8",
+                        "k": 0,
+                        "d": 5,
+                        "a": 8,
+                        "damage": 8627,
+                        "wards": 6,
+                        "vision": 10,
+                        "cs": 110,
+                        "cs_min": 5.1,
+                        "items": [
+                            1054,
+                            3115,
+                            3006,
+                            3145,
+                            0,
+                            0
+                        ],
+                        "op_score": 3.693,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "11/5/2",
+                        "k": 11,
+                        "d": 5,
+                        "a": 2,
+                        "damage": 27946,
+                        "wards": 8,
+                        "vision": 16,
+                        "cs": 148,
+                        "cs_min": 6.9,
+                        "items": [
+                            1055,
+                            6692,
+                            3111,
+                            3161,
+                            2021,
+                            3133
+                        ],
+                        "op_score": 6.626,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "MarLP",
+                        "tag": "2018",
+                        "champ_id": 18,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            21,
+                            4
+                        ],
+                        "runes": 8008,
+                        "kda": "10/1/3",
+                        "k": 10,
+                        "d": 1,
+                        "a": 3,
+                        "damage": 21519,
+                        "wards": 6,
+                        "vision": 9,
+                        "cs": 151,
+                        "cs_min": 7.0,
+                        "items": [
+                            1055,
+                            3032,
+                            3047,
+                            3031,
+                            6675,
+                            0
+                        ],
+                        "op_score": 7.568,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "ALVYN",
+                        "tag": "0000",
+                        "champ_id": 246,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8010,
+                        "kda": "6/3/6",
+                        "k": 6,
+                        "d": 3,
+                        "a": 6,
+                        "damage": 19091,
+                        "wards": 5,
+                        "vision": 11,
+                        "cs": 126,
+                        "cs_min": 5.8,
+                        "items": [
+                            6696,
+                            6697,
+                            1036,
+                            0,
+                            1055,
+                            3158
+                        ],
+                        "op_score": 6.199,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "MarLP V1",
+                        "tag": "Copy",
+                        "champ_id": 56,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8008,
+                        "kda": "8/3/7",
+                        "k": 8,
+                        "d": 3,
+                        "a": 7,
+                        "damage": 14401,
+                        "wards": 10,
+                        "vision": 20,
+                        "cs": 167,
+                        "cs_min": 7.7,
+                        "items": [
+                            6631,
+                            1001,
+                            3071,
+                            1029,
+                            1028,
+                            0
+                        ],
+                        "op_score": 7.108,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "WeidMannsFries",
+                        "tag": "666",
+                        "champ_id": 223,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8437,
+                        "kda": "4/7/6",
+                        "k": 4,
+                        "d": 7,
+                        "a": 6,
+                        "damage": 15973,
+                        "wards": 6,
+                        "vision": 7,
+                        "cs": 69,
+                        "cs_min": 3.2,
+                        "items": [
+                            3084,
+                            3076,
+                            3047,
+                            6660,
+                            1031,
+                            0
+                        ],
+                        "op_score": 4.204,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Alvyn Le Goat",
+                        "tag": "GOAT",
+                        "champ_id": 518,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8229,
+                        "kda": "3/4/10",
+                        "k": 3,
+                        "d": 4,
+                        "a": 10,
+                        "damage": 13229,
+                        "wards": 21,
+                        "vision": 53,
+                        "cs": 34,
+                        "cs_min": 1.6,
+                        "items": [
+                            3871,
+                            3152,
+                            1058,
+                            3916,
+                            0,
+                            3158
+                        ],
+                        "op_score": 5.796,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 3"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YRvS5DvcdR1rQJhYzfl0QH-2J6hCF8dWZI=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "32m 14s",
+            "result": "WIN",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "RED",
+                "role": "TOP",
+                "spells": [
+                    12,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "9/8/6",
+                "k": 9,
+                "d": 8,
+                "a": 6,
+                "damage": 39016,
+                "wards": 12,
+                "vision": 24,
+                "cs": 224,
+                "cs_min": 6.9,
+                "items": [
+                    1055,
+                    6692,
+                    3047,
+                    6610,
+                    3161,
+                    3035
+                ],
+                "op_score": 6.088,
+                "op_rank": 4,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "Mana Sherna",
+                        "tag": "EUW",
+                        "champ_id": 238,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8112,
+                        "kda": "5/10/3",
+                        "k": 5,
+                        "d": 10,
+                        "a": 3,
+                        "damage": 23853,
+                        "wards": 11,
+                        "vision": 23,
+                        "cs": 213,
+                        "cs_min": 6.6,
+                        "items": [
+                            1036,
+                            3134,
+                            6694,
+                            6699,
+                            6692,
+                            3158
+                        ],
+                        "op_score": 3.13,
+                        "op_rank": 9,
+                        "tier": "GOLD 2"
+                    },
+                    {
+                        "name": "bunyapper",
+                        "tag": "ffwop",
+                        "champ_id": 106,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8008,
+                        "kda": "3/5/4",
+                        "k": 3,
+                        "d": 5,
+                        "a": 4,
+                        "damage": 11790,
+                        "wards": 13,
+                        "vision": 29,
+                        "cs": 195,
+                        "cs_min": 6.0,
+                        "items": [
+                            6675,
+                            3047,
+                            1031,
+                            3065,
+                            1028,
+                            4629
+                        ],
+                        "op_score": 3.645,
+                        "op_rank": 7,
+                        "tier": "GOLD 1"
+                    },
+                    {
+                        "name": "UcZerd",
+                        "tag": "EUW",
+                        "champ_id": 115,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8229,
+                        "kda": "3/5/8",
+                        "k": 3,
+                        "d": 5,
+                        "a": 8,
+                        "damage": 28638,
+                        "wards": 12,
+                        "vision": 17,
+                        "cs": 237,
+                        "cs_min": 7.4,
+                        "items": [
+                            6655,
+                            3070,
+                            4628,
+                            3089,
+                            4630,
+                            3020
+                        ],
+                        "op_score": 5.391,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "YEAH BUDDY",
+                        "tag": "ƒƒ 15",
+                        "champ_id": 101,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            7
+                        ],
+                        "runes": 8369,
+                        "kda": "3/10/6",
+                        "k": 3,
+                        "d": 10,
+                        "a": 6,
+                        "damage": 15633,
+                        "wards": 24,
+                        "vision": 44,
+                        "cs": 113,
+                        "cs_min": 3.5,
+                        "items": [
+                            3871,
+                            3070,
+                            6655,
+                            3108,
+                            4628,
+                            3020
+                        ],
+                        "op_score": 2.915,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "mehdiplay38",
+                        "tag": "EUW",
+                        "champ_id": 86,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8010,
+                        "kda": "5/5/1",
+                        "k": 5,
+                        "d": 5,
+                        "a": 1,
+                        "damage": 14496,
+                        "wards": 10,
+                        "vision": 18,
+                        "cs": 200,
+                        "cs_min": 6.2,
+                        "items": [
+                            1054,
+                            6631,
+                            3006,
+                            3046,
+                            3161,
+                            0
+                        ],
+                        "op_score": 3.592,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "Freazen",
+                        "tag": "EUW",
+                        "champ_id": 40,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            3,
+                            4
+                        ],
+                        "runes": 8229,
+                        "kda": "1/3/20",
+                        "k": 1,
+                        "d": 3,
+                        "a": 20,
+                        "damage": 9976,
+                        "wards": 41,
+                        "vision": 83,
+                        "cs": 24,
+                        "cs_min": 0.7,
+                        "items": [
+                            3870,
+                            3107,
+                            6617,
+                            3170,
+                            3504,
+                            0
+                        ],
+                        "op_score": 7.82,
+                        "op_rank": 2,
+                        "tier": "EMERALD 4"
+                    },
+                    {
+                        "name": "Hylia",
+                        "tag": "HSV",
+                        "champ_id": 901,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            21,
+                            4
+                        ],
+                        "runes": 8021,
+                        "kda": "2/2/6",
+                        "k": 2,
+                        "d": 2,
+                        "a": 6,
+                        "damage": 8109,
+                        "wards": 16,
+                        "vision": 31,
+                        "cs": 246,
+                        "cs_min": 7.6,
+                        "items": [
+                            3508,
+                            3161,
+                            3094,
+                            0,
+                            0,
+                            3158
+                        ],
+                        "op_score": 4.609,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "kataflashin",
+                        "tag": "TOZZ",
+                        "champ_id": 103,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8112,
+                        "kda": "11/5/4",
+                        "k": 11,
+                        "d": 5,
+                        "a": 4,
+                        "damage": 29375,
+                        "wards": 13,
+                        "vision": 23,
+                        "cs": 195,
+                        "cs_min": 6.0,
+                        "items": [
+                            3175,
+                            3118,
+                            2421,
+                            4645,
+                            3089,
+                            0
+                        ],
+                        "op_score": 6.513,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "HelloKittyOp",
+                        "tag": "Meow",
+                        "champ_id": 91,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "12/1/8",
+                        "k": 12,
+                        "d": 1,
+                        "a": 8,
+                        "damage": 27255,
+                        "wards": 3,
+                        "vision": 26,
+                        "cs": 266,
+                        "cs_min": 8.3,
+                        "items": [
+                            6701,
+                            6694,
+                            3171,
+                            6695,
+                            3142,
+                            6696
+                        ],
+                        "op_score": 9.227,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "9/8/6",
+                        "k": 9,
+                        "d": 8,
+                        "a": 6,
+                        "damage": 39016,
+                        "wards": 12,
+                        "vision": 24,
+                        "cs": 224,
+                        "cs_min": 6.9,
+                        "items": [
+                            1055,
+                            6692,
+                            3047,
+                            6610,
+                            3161,
+                            3035
+                        ],
+                        "op_score": 6.088,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 2"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YTQ1urJLYvFIEIJ3MKKxLSTrAnRbGQthtA=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "28m 50s",
+            "result": "LOSE",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "8/8/5",
+                "k": 8,
+                "d": 8,
+                "a": 5,
+                "damage": 17581,
+                "wards": 4,
+                "vision": 32,
+                "cs": 192,
+                "cs_min": 6.7,
+                "items": [
+                    3161,
+                    6699,
+                    0,
+                    6610,
+                    3047,
+                    0
+                ],
+                "op_score": 4.764,
+                "op_rank": 6,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "nnazz",
+                        "tag": "EUW",
+                        "champ_id": 112,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8214,
+                        "kda": "6/6/7",
+                        "k": 6,
+                        "d": 6,
+                        "a": 7,
+                        "damage": 24431,
+                        "wards": 8,
+                        "vision": 11,
+                        "cs": 194,
+                        "cs_min": 6.7,
+                        "items": [
+                            1056,
+                            2503,
+                            2421,
+                            6653,
+                            3171,
+                            0
+                        ],
+                        "op_score": 5.447,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Reayfor1",
+                        "tag": "ttv",
+                        "champ_id": 875,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            14,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "6/10/3",
+                        "k": 6,
+                        "d": 10,
+                        "a": 3,
+                        "damage": 24165,
+                        "wards": 10,
+                        "vision": 13,
+                        "cs": 208,
+                        "cs_min": 7.2,
+                        "items": [
+                            6631,
+                            3053,
+                            3009,
+                            2501,
+                            1036,
+                            1028
+                        ],
+                        "op_score": 3.639,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "ねぐっろ",
+                        "tag": "SIVIR",
+                        "champ_id": 43,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            7
+                        ],
+                        "runes": 8229,
+                        "kda": "0/4/7",
+                        "k": 0,
+                        "d": 4,
+                        "a": 7,
+                        "damage": 12761,
+                        "wards": 24,
+                        "vision": 71,
+                        "cs": 46,
+                        "cs_min": 1.6,
+                        "items": [
+                            3118,
+                            3871,
+                            3171,
+                            4642,
+                            1052,
+                            2022
+                        ],
+                        "op_score": 3.696,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "8/8/5",
+                        "k": 8,
+                        "d": 8,
+                        "a": 5,
+                        "damage": 17581,
+                        "wards": 4,
+                        "vision": 32,
+                        "cs": 192,
+                        "cs_min": 6.7,
+                        "items": [
+                            3161,
+                            6699,
+                            0,
+                            6610,
+                            3047,
+                            0
+                        ],
+                        "op_score": 4.764,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "zivi",
+                        "tag": "08569",
+                        "champ_id": 145,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            21,
+                            4
+                        ],
+                        "runes": 8008,
+                        "kda": "3/7/1",
+                        "k": 3,
+                        "d": 7,
+                        "a": 1,
+                        "damage": 9693,
+                        "wards": 7,
+                        "vision": 12,
+                        "cs": 197,
+                        "cs_min": 6.8,
+                        "items": [
+                            3124,
+                            6672,
+                            1055,
+                            3108,
+                            1043,
+                            3172
+                        ],
+                        "op_score": 2.434,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 1"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "leopony",
+                        "tag": "EUW",
+                        "champ_id": 887,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            3
+                        ],
+                        "runes": 8010,
+                        "kda": "9/3/7",
+                        "k": 9,
+                        "d": 3,
+                        "a": 7,
+                        "damage": 21758,
+                        "wards": 9,
+                        "vision": 16,
+                        "cs": 224,
+                        "cs_min": 7.8,
+                        "items": [
+                            3089,
+                            2421,
+                            3047,
+                            4633,
+                            3115,
+                            1058
+                        ],
+                        "op_score": 7.066,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "Brandonn",
+                        "tag": "EUW",
+                        "champ_id": 245,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8128,
+                        "kda": "4/5/8",
+                        "k": 4,
+                        "d": 5,
+                        "a": 8,
+                        "damage": 16920,
+                        "wards": 7,
+                        "vision": 25,
+                        "cs": 186,
+                        "cs_min": 6.5,
+                        "items": [
+                            3100,
+                            3157,
+                            3152,
+                            3020,
+                            0,
+                            0
+                        ],
+                        "op_score": 5.236,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Malegore",
+                        "tag": "EUW",
+                        "champ_id": 39,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8010,
+                        "kda": "6/11/7",
+                        "k": 6,
+                        "d": 11,
+                        "a": 7,
+                        "damage": 25989,
+                        "wards": 11,
+                        "vision": 18,
+                        "cs": 215,
+                        "cs_min": 7.5,
+                        "items": [
+                            3153,
+                            3111,
+                            3053,
+                            1055,
+                            3026,
+                            0
+                        ],
+                        "op_score": 4.352,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "I msıWAS",
+                        "tag": "123",
+                        "champ_id": 67,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8008,
+                        "kda": "13/3/12",
+                        "k": 13,
+                        "d": 3,
+                        "a": 12,
+                        "damage": 37242,
+                        "wards": 7,
+                        "vision": 16,
+                        "cs": 227,
+                        "cs_min": 7.9,
+                        "items": [
+                            3124,
+                            3302,
+                            0,
+                            6665,
+                            3006,
+                            6672
+                        ],
+                        "op_score": 9.898,
+                        "op_rank": 1,
+                        "tier": "EMERALD 4"
+                    },
+                    {
+                        "name": "ψ Nozie ψ",
+                        "tag": "BGH",
+                        "champ_id": 117,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            7
+                        ],
+                        "runes": 8214,
+                        "kda": "2/1/25",
+                        "k": 2,
+                        "d": 1,
+                        "a": 25,
+                        "damage": 7601,
+                        "wards": 19,
+                        "vision": 52,
+                        "cs": 28,
+                        "cs_min": 1.0,
+                        "items": [
+                            3870,
+                            2065,
+                            3504,
+                            6617,
+                            3158,
+                            1028
+                        ],
+                        "op_score": 9.511,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 4"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YS4HfoidH5_VDk2w0R0PIYr6CbqR-O3dNU=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "35m 31s",
+            "result": "LOSE",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "13/9/10",
+                "k": 13,
+                "d": 9,
+                "a": 10,
+                "damage": 42139,
+                "wards": 3,
+                "vision": 37,
+                "cs": 194,
+                "cs_min": 5.5,
+                "items": [
+                    6610,
+                    6699,
+                    3047,
+                    3161,
+                    3053,
+                    3133
+                ],
+                "op_score": 5.416,
+                "op_rank": 5,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "Mcbaguette",
+                        "tag": "pain",
+                        "champ_id": 201,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8465,
+                        "kda": "1/10/22",
+                        "k": 1,
+                        "d": 10,
+                        "a": 22,
+                        "damage": 13407,
+                        "wards": 34,
+                        "vision": 74,
+                        "cs": 34,
+                        "cs_min": 1.0,
+                        "items": [
+                            3009,
+                            3110,
+                            3143,
+                            3876,
+                            2055,
+                            3211
+                        ],
+                        "op_score": 4.248,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "Tuturwd",
+                        "tag": "5748",
+                        "champ_id": 31,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 9923,
+                        "kda": "8/8/12",
+                        "k": 8,
+                        "d": 8,
+                        "a": 12,
+                        "damage": 30354,
+                        "wards": 16,
+                        "vision": 30,
+                        "cs": 158,
+                        "cs_min": 4.4,
+                        "items": [
+                            3075,
+                            2502,
+                            3047,
+                            3068,
+                            3084,
+                            0
+                        ],
+                        "op_score": 4.584,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "ll Veigar ll",
+                        "tag": "EUW",
+                        "champ_id": 101,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8229,
+                        "kda": "7/5/21",
+                        "k": 7,
+                        "d": 5,
+                        "a": 21,
+                        "damage": 46672,
+                        "wards": 13,
+                        "vision": 26,
+                        "cs": 239,
+                        "cs_min": 6.7,
+                        "items": [
+                            3020,
+                            4630,
+                            3089,
+                            4646,
+                            6655,
+                            4645
+                        ],
+                        "op_score": 6.935,
+                        "op_rank": 2,
+                        "tier": "GOLD 3"
+                    },
+                    {
+                        "name": "GraViiTy",
+                        "tag": "anas",
+                        "champ_id": 21,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8369,
+                        "kda": "7/16/7",
+                        "k": 7,
+                        "d": 16,
+                        "a": 7,
+                        "damage": 23028,
+                        "wards": 11,
+                        "vision": 32,
+                        "cs": 247,
+                        "cs_min": 7.0,
+                        "items": [
+                            3009,
+                            6676,
+                            6701,
+                            3179,
+                            3036,
+                            3031
+                        ],
+                        "op_score": 2.328,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "13/9/10",
+                        "k": 13,
+                        "d": 9,
+                        "a": 10,
+                        "damage": 42139,
+                        "wards": 3,
+                        "vision": 37,
+                        "cs": 194,
+                        "cs_min": 5.5,
+                        "items": [
+                            6610,
+                            6699,
+                            3047,
+                            3161,
+                            3053,
+                            3133
+                        ],
+                        "op_score": 5.416,
+                        "op_rank": 5,
+                        "tier": "PLATINUM 2"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "RageQuittAsAKid",
+                        "tag": "ALB",
+                        "champ_id": 111,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            14,
+                            4
+                        ],
+                        "runes": 8439,
+                        "kda": "7/6/32",
+                        "k": 7,
+                        "d": 6,
+                        "a": 32,
+                        "damage": 26865,
+                        "wards": 40,
+                        "vision": 76,
+                        "cs": 26,
+                        "cs_min": 0.7,
+                        "items": [
+                            3876,
+                            3190,
+                            3107,
+                            3174,
+                            3109,
+                            2504
+                        ],
+                        "op_score": 8.106,
+                        "op_rank": 1,
+                        "tier": "PLATINUM 3"
+                    },
+                    {
+                        "name": "paplemouss",
+                        "tag": "EUW",
+                        "champ_id": 45,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            12
+                        ],
+                        "runes": 8229,
+                        "kda": "7/8/11",
+                        "k": 7,
+                        "d": 8,
+                        "a": 11,
+                        "damage": 35588,
+                        "wards": 11,
+                        "vision": 18,
+                        "cs": 192,
+                        "cs_min": 5.4,
+                        "items": [
+                            3175,
+                            3040,
+                            6657,
+                            3089,
+                            1052,
+                            1052
+                        ],
+                        "op_score": 4.394,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Wicked",
+                        "tag": "AIR",
+                        "champ_id": 234,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "15/4/6",
+                        "k": 15,
+                        "d": 4,
+                        "a": 6,
+                        "damage": 27277,
+                        "wards": 12,
+                        "vision": 42,
+                        "cs": 231,
+                        "cs_min": 6.5,
+                        "items": [
+                            6676,
+                            3078,
+                            3173,
+                            6673,
+                            3033,
+                            2019
+                        ],
+                        "op_score": 5.773,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Yakat0r1",
+                        "tag": "SETT",
+                        "champ_id": 875,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8005,
+                        "kda": "7/10/11",
+                        "k": 7,
+                        "d": 10,
+                        "a": 11,
+                        "damage": 44595,
+                        "wards": 11,
+                        "vision": 22,
+                        "cs": 195,
+                        "cs_min": 5.5,
+                        "items": [
+                            3161,
+                            6631,
+                            2501,
+                            3009,
+                            1037,
+                            1028
+                        ],
+                        "op_score": 4.348,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "Pochita",
+                        "tag": "Lily",
+                        "champ_id": 498,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            4,
+                            21
+                        ],
+                        "runes": 8008,
+                        "kda": "12/8/16",
+                        "k": 12,
+                        "d": 8,
+                        "a": 16,
+                        "damage": 38863,
+                        "wards": 12,
+                        "vision": 32,
+                        "cs": 248,
+                        "cs_min": 7.0,
+                        "items": [
+                            1038,
+                            6675,
+                            3036,
+                            3032,
+                            3031,
+                            3006
+                        ],
+                        "op_score": 6.368,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 2"
+                    }
+                ]
+            }
+        },
+        {
+            "game_id": "WfYe8TQY7YRgjPy9mMY0UdV-t6rwv9aiSNgfY1QswcU=",
+            "game_type": "SOLORANKED",
+            "time_ago": "Récemment",
+            "duration": "32m 9s",
+            "result": "LOSE",
+            "my_stats": {
+                "name": "Jaydmj23",
+                "tag": "JSYD",
+                "champ_id": 266,
+                "team": "BLUE",
+                "role": "JUNGLE",
+                "spells": [
+                    11,
+                    4
+                ],
+                "runes": 8010,
+                "kda": "5/9/9",
+                "k": 5,
+                "d": 9,
+                "a": 9,
+                "damage": 20175,
+                "wards": 4,
+                "vision": 31,
+                "cs": 189,
+                "cs_min": 5.9,
+                "items": [
+                    6610,
+                    6699,
+                    3111,
+                    3161,
+                    2021,
+                    1028
+                ],
+                "op_score": 4.856,
+                "op_rank": 6,
+                "tier": "PLATINUM 2"
+            },
+            "teams": {
+                "BLUE": [
+                    {
+                        "name": "Arzii",
+                        "tag": "0001",
+                        "champ_id": 31,
+                        "team": "BLUE",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8437,
+                        "kda": "5/5/4",
+                        "k": 5,
+                        "d": 5,
+                        "a": 4,
+                        "damage": 20708,
+                        "wards": 14,
+                        "vision": 22,
+                        "cs": 233,
+                        "cs_min": 7.2,
+                        "items": [
+                            3105,
+                            3084,
+                            3075,
+                            3173,
+                            6664,
+                            2055
+                        ],
+                        "op_score": 4.642,
+                        "op_rank": 8,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "HottestAsianDad",
+                        "tag": "Trang",
+                        "champ_id": 145,
+                        "team": "BLUE",
+                        "role": "ADC",
+                        "spells": [
+                            1,
+                            4
+                        ],
+                        "runes": 8008,
+                        "kda": "7/8/4",
+                        "k": 7,
+                        "d": 8,
+                        "a": 4,
+                        "damage": 27452,
+                        "wards": 15,
+                        "vision": 29,
+                        "cs": 216,
+                        "cs_min": 6.7,
+                        "items": [
+                            3124,
+                            2420,
+                            3172,
+                            3115,
+                            6672,
+                            1058
+                        ],
+                        "op_score": 4.742,
+                        "op_rank": 7,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "βεcσmε Dεατh",
+                        "tag": "Hell",
+                        "champ_id": 134,
+                        "team": "BLUE",
+                        "role": "MID",
+                        "spells": [
+                            12,
+                            4
+                        ],
+                        "runes": 8112,
+                        "kda": "4/10/8",
+                        "k": 4,
+                        "d": 10,
+                        "a": 8,
+                        "damage": 23018,
+                        "wards": 9,
+                        "vision": 15,
+                        "cs": 206,
+                        "cs_min": 6.4,
+                        "items": [
+                            1056,
+                            6655,
+                            3175,
+                            4646,
+                            3145,
+                            1058
+                        ],
+                        "op_score": 4.237,
+                        "op_rank": 9,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Jaydmj23",
+                        "tag": "JSYD",
+                        "champ_id": 266,
+                        "team": "BLUE",
+                        "role": "JUNGLE",
+                        "spells": [
+                            11,
+                            4
+                        ],
+                        "runes": 8010,
+                        "kda": "5/9/9",
+                        "k": 5,
+                        "d": 9,
+                        "a": 9,
+                        "damage": 20175,
+                        "wards": 4,
+                        "vision": 31,
+                        "cs": 189,
+                        "cs_min": 5.9,
+                        "items": [
+                            6610,
+                            6699,
+                            3111,
+                            3161,
+                            2021,
+                            1028
+                        ],
+                        "op_score": 4.856,
+                        "op_rank": 6,
+                        "tier": "PLATINUM 2"
+                    },
+                    {
+                        "name": "ErBalotelli",
+                        "tag": "EUW",
+                        "champ_id": 63,
+                        "team": "BLUE",
+                        "role": "SUPPORT",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8128,
+                        "kda": "5/14/8",
+                        "k": 5,
+                        "d": 14,
+                        "a": 8,
+                        "damage": 24271,
+                        "wards": 39,
+                        "vision": 81,
+                        "cs": 57,
+                        "cs_min": 1.8,
+                        "items": [
+                            3175,
+                            3871,
+                            2420,
+                            6653,
+                            2503,
+                            0
+                        ],
+                        "op_score": 3.595,
+                        "op_rank": 10,
+                        "tier": "PLATINUM 1"
+                    }
+                ],
+                "RED": [
+                    {
+                        "name": "Sakane Uchiha",
+                        "tag": "EUW",
+                        "champ_id": 89,
+                        "team": "RED",
+                        "role": "SUPPORT",
+                        "spells": [
+                            14,
+                            4
+                        ],
+                        "runes": 8439,
+                        "kda": "3/8/18",
+                        "k": 3,
+                        "d": 8,
+                        "a": 18,
+                        "damage": 11385,
+                        "wards": 34,
+                        "vision": 76,
+                        "cs": 14,
+                        "cs_min": 0.4,
+                        "items": [
+                            3869,
+                            3111,
+                            3190,
+                            3107,
+                            2504,
+                            0
+                        ],
+                        "op_score": 6.088,
+                        "op_rank": 4,
+                        "tier": "PLATINUM 4"
+                    },
+                    {
+                        "name": "Ennui Blake",
+                        "tag": "0001",
+                        "champ_id": 56,
+                        "team": "RED",
+                        "role": "JUNGLE",
+                        "spells": [
+                            4,
+                            11
+                        ],
+                        "runes": 8010,
+                        "kda": "14/2/4",
+                        "k": 14,
+                        "d": 2,
+                        "a": 4,
+                        "damage": 34866,
+                        "wards": 7,
+                        "vision": 24,
+                        "cs": 312,
+                        "cs_min": 9.7,
+                        "items": [
+                            6698,
+                            6696,
+                            3158,
+                            6694,
+                            3814,
+                            6697
+                        ],
+                        "op_score": 7.86,
+                        "op_rank": 3,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "Davidcerilla09",
+                        "tag": "EUW",
+                        "champ_id": 901,
+                        "team": "RED",
+                        "role": "ADC",
+                        "spells": [
+                            21,
+                            4
+                        ],
+                        "runes": 8021,
+                        "kda": "10/5/15",
+                        "k": 10,
+                        "d": 5,
+                        "a": 15,
+                        "damage": 32886,
+                        "wards": 13,
+                        "vision": 22,
+                        "cs": 219,
+                        "cs_min": 6.8,
+                        "items": [
+                            3094,
+                            1038,
+                            3078,
+                            3009,
+                            1018,
+                            3508
+                        ],
+                        "op_score": 8.287,
+                        "op_rank": 2,
+                        "tier": "PLATINUM 1"
+                    },
+                    {
+                        "name": "amayasvlx",
+                        "tag": "EUW",
+                        "champ_id": 142,
+                        "team": "RED",
+                        "role": "MID",
+                        "spells": [
+                            4,
+                            14
+                        ],
+                        "runes": 8128,
+                        "kda": "14/7/14",
+                        "k": 14,
+                        "d": 7,
+                        "a": 14,
+                        "damage": 45432,
+                        "wards": 14,
+                        "vision": 23,
+                        "cs": 140,
+                        "cs_min": 4.4,
+                        "items": [
+                            3157,
+                            6655,
+                            1058,
+                            4645,
+                            3020,
+                            1058
+                        ],
+                        "op_score": 8.785,
+                        "op_rank": 1,
+                        "tier": "EMERALD 4"
+                    },
+                    {
+                        "name": "NotAClown",
+                        "tag": "7092",
+                        "champ_id": 36,
+                        "team": "RED",
+                        "role": "TOP",
+                        "spells": [
+                            12,
+                            6
+                        ],
+                        "runes": 8437,
+                        "kda": "5/4/3",
+                        "k": 5,
+                        "d": 4,
+                        "a": 3,
+                        "damage": 31152,
+                        "wards": 9,
+                        "vision": 23,
+                        "cs": 266,
+                        "cs_min": 8.3,
+                        "items": [
+                            2501,
+                            3748,
+                            3084,
+                            3009,
+                            3083,
+                            1028
+                        ],
+                        "op_score": 5.144,
+                        "op_rank": 5,
+                        "tier": "EMERALD 4"
+                    }
+                ]
+            }
+        }
+    ]
+}
