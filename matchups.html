@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Méta Globale - Deep Dive</title>
+    <style>
+        :root {
+            --bg-body: #1c1c1f;
+            --bg-card: #31313c;
+            --border-color: #2c2c32;
+            --win-blue: #5383e8;
+            --lose-red: #e84057;
+            --text-primary: #fff;
+            --text-secondary: #9e9eb1;
+        }
+        body { font-family: sans-serif; background-color: var(--bg-body); color: var(--text-primary); margin: 0; padding: 20px; font-size: 12px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        
+        .nav-tabs { display: flex; gap: 10px; margin-bottom: 20px; border-bottom: 3px solid var(--border-color); }
+        .nav-tab { padding: 10px 15px; font-weight: bold; color: var(--text-secondary); text-decoration: none; border-bottom: 3px solid transparent; transition: all 0.2s; }
+        .nav-tab:hover { color: var(--win-blue); }
+
+        h1 { color: var(--win-blue); }
+        
+        /* GRILLE PRINCIPALE (Tous les champions) */
+        .deep-meta-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); 
+            gap: 20px;
+        }
+        .champ-card {
+            background-color: var(--bg-card);
+            border-radius: 10px;
+            padding: 15px;
+            border: 1px solid var(--border-color);
+            transition: box-shadow 0.2s;
+        }
+        .champ-card:hover { box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+
+        .champ-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 10px;
+        }
+        .champ-icon-img { width: 50px; height: 50px; border-radius: 50%; }
+        .champ-name { font-size: 18px; font-weight: bold; }
+        
+        /* TABLEAU DES RÔLES */
+        .role-stats-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        .role-stats-table th, .role-stats-table td {
+            padding: 5px 8px;
+            text-align: center;
+            font-size: 11px;
+            border-bottom: 1px solid #3e3e46;
+        }
+        .role-stats-table th { color: var(--text-secondary); font-weight: normal; }
+        .role-stats-table tr:last-child td { border-bottom: none; }
+        
+        .role-name { text-align: left; font-weight: bold; }
+        .wr-val-small { font-weight: bold; }
+        .wr-val-small.good { color: var(--win-blue); }
+        .wr-val-small.bad { color: var(--lose-red); }
+
+        /* MATCHUP LIST */
+        .matchup-row { 
+            display: flex; 
+            justify-content: space-between; 
+            font-size: 10px; 
+            padding: 2px 0;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-tabs">
+            <a href="profile.html" class="nav-tab">Mon Profil</a>
+            <a href="matchups.html" class="nav-tab active">Deep Meta</a>
+        </div>
+
+        <h1>Analyse Méta Globale (Emerald+)</h1>
+
+        <input type="text" id="search" style="width:100%; padding:10px; margin-bottom:20px; background:var(--bg-card); border:1px solid var(--border-color); color:white; border-radius:4px;" placeholder="Rechercher un champion (ex: Aatrox)...">
+
+        <div id="matchup-container" class="deep-meta-grid">
+            <p>Chargement des données de meta...</p>
+        </div>
+    </div>
+
+    <script>
+        const CDN = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1";
+        let metaData = {};
+
+        function renderMeta(filter = "") {
+            const container = document.getElementById('matchup-container');
+            container.innerHTML = '';
+            
+            const championNames = Object.keys(metaData).filter(name => 
+                name.toLowerCase().includes(filter.toLowerCase())
+            ).sort();
+
+            if (championNames.length === 0) {
+                container.innerHTML = '<p style="text-align:center; color:#888;">Aucun champion trouvé.</p>';
+                return;
+            }
+
+            championNames.forEach(champName => {
+                const champ = metaData[champName];
+                const roles = Object.keys(champ.roles_data);
+
+                // Pour affichage de l'icône, on utilise la même ID que dans le script
+                const champIconUrl = `${CDN}/champion-icons/${champ.id}.png`; 
+                
+                // Préparation du tableau des stats par rôle
+                let roleTableHtml = `
+                    <table class="role-stats-table">
+                        <thead>
+                            <tr>
+                                <th class="role-name">Rôle</th>
+                                <th>WR</th>
+                                <th>Pick %</th>
+                                <th>KDA</th>
+                                <th style="text-align:right;">Pire Matchup</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                `;
+
+                roles.forEach(role => {
+                    const data = champ.roles_data[role];
+                    const wrColor = data.win_rate > 51 ? 'wr-good' : (data.win_rate < 49 ? 'wr-bad' : '');
+                    
+                    // Pire matchup pour ce rôle
+                    const worstMatchup = data.matchups.length > 0 ? 
+                        `${data.matchups[0].vs} (${data.matchups[0].win_rate}%)` : 'N/A';
+
+                    roleTableHtml += `
+                        <tr>
+                            <td class="role-name">${role}</td>
+                            <td class="wr-val-small ${wrColor}">${data.win_rate}%</td>
+                            <td>${data.pick_rate}%</td>
+                            <td>${data.kda}:1</td>
+                            <td style="text-align:right; color:#ddd; font-weight:bold;">${worstMatchup}</td>
+                        </tr>
+                    `;
+                });
+
+                roleTableHtml += `</tbody></table>`;
+
+                container.innerHTML += `
+                    <div class="champ-card">
+                        <div class="champ-header">
+                            <img src="${champIconUrl}" class="champ-icon-img" onerror="this.style.display='none'">
+                            <span class="champ-name">${champName}</span>
+                        </div>
+                        
+                        ${roleTableHtml}
+                    </div>
+                `;
+            });
+        }
+
+        // --- CHARGEMENT DU JSON ---
+        fetch('matchups_meta_data.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Network response was not ok');
+                return response.json();
+            })
+            .then(data => {
+                metaData = data;
+                renderMeta();
+
+                document.getElementById('search').addEventListener('input', (e) => {
+                    renderMeta(e.target.value);
+                });
+            })
+            .catch(err => {
+                document.getElementById('matchup-container').innerHTML = `<h3 style="color:var(--lose-red); text-align:center;">Erreur de chargement des données. Lancez le script Python !</h3><p>${err.message}</p>`;
+                console.error('Erreur lors du chargement des données de meta:', err);
+            });
+    </script>
+</body>
+</html>

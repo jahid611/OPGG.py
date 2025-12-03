@@ -1,0 +1,93 @@
+[
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "ElManipulus",
+        "kda": "9/5/12",
+        "dmg": 25016
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "ElManipulus",
+        "kda": "11/7/20",
+        "dmg": 66003
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "12/7/14",
+        "dmg": 37425
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "12/3/9",
+        "dmg": 27706
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "19/3/8",
+        "dmg": 44832
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "14/4/4",
+        "dmg": 39238
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "10/5/15",
+        "dmg": 34691
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "18/13/9",
+        "dmg": 66456
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "LSTR 512",
+        "kda": "30/6/9",
+        "dmg": 66593
+    },
+    {
+        "queue": "SOLO",
+        "result": "LOSE",
+        "player": "Kukii07",
+        "kda": "7/7/2",
+        "dmg": 17976
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "Kukii07",
+        "kda": "15/4/9",
+        "dmg": 31266
+    },
+    {
+        "queue": "SOLO",
+        "result": "LOSE",
+        "player": "Kukii07",
+        "kda": "7/9/5",
+        "dmg": 23335
+    },
+    {
+        "queue": "SOLO",
+        "result": "WIN",
+        "player": "Kukii07",
+        "kda": "17/2/7",
+        "dmg": 31258
+    }
+]

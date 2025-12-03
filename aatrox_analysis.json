@@ -1,0 +1,152 @@
+{
+    "summary": {
+        "winrate": 77.77777777777779,
+        "games": 18
+    },
+    "details": [
+        {
+            "result": "WIN",
+            "player": "ElManipulus",
+            "kda_str": "9/5/12",
+            "dmg_share": 26.7,
+            "op_score": 7.689,
+            "verdict": "\ud83d\udcaa Solide"
+        },
+        {
+            "result": "WIN",
+            "player": "ElManipulus",
+            "kda_str": "11/7/20",
+            "dmg_share": 28.7,
+            "op_score": 6.884,
+            "verdict": "\ud83d\udcaa Solide"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "12/7/14",
+            "dmg_share": 28.6,
+            "op_score": 7.432,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "12/3/9",
+            "dmg_share": 32.9,
+            "op_score": 9.56,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "19/3/8",
+            "dmg_share": 46.0,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "14/4/4",
+            "dmg_share": 31.8,
+            "op_score": 8.227,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "10/5/15",
+            "dmg_share": 32.8,
+            "op_score": 8.823,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "18/13/9",
+            "dmg_share": 39.7,
+            "op_score": 5.849,
+            "verdict": "\ud83d\udcaa Solide"
+        },
+        {
+            "result": "WIN",
+            "player": "LSTR 512",
+            "kda_str": "30/6/9",
+            "dmg_share": 40.2,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "LOSE",
+            "player": "Kukii07",
+            "kda_str": "7/7/2",
+            "dmg_share": 24.5,
+            "op_score": 4.855,
+            "verdict": "\u274c Diff Top"
+        },
+        {
+            "result": "WIN",
+            "player": "Kukii07",
+            "kda_str": "15/4/9",
+            "dmg_share": 33.6,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "LOSE",
+            "player": "Kukii07",
+            "kda_str": "7/9/5",
+            "dmg_share": 25.8,
+            "op_score": 4.653,
+            "verdict": "\ud83e\udd21 FEEDER"
+        },
+        {
+            "result": "WIN",
+            "player": "Kukii07",
+            "kda_str": "17/2/7",
+            "dmg_share": 45.3,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "LOSE",
+            "player": "Kukii07",
+            "kda_str": "19/11/11",
+            "dmg_share": 34.5,
+            "op_score": 6.703,
+            "verdict": "\ud83d\udc80 SVP (Team Gap)"
+        },
+        {
+            "result": "WIN",
+            "player": "Kukii07",
+            "kda_str": "14/1/11",
+            "dmg_share": 34.7,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "LOSE",
+            "player": "Kukii07",
+            "kda_str": "8/8/9",
+            "dmg_share": 32.6,
+            "op_score": 5.206,
+            "verdict": "\ud83d\udc80 SVP (Team Gap)"
+        },
+        {
+            "result": "WIN",
+            "player": "Kukii07",
+            "kda_str": "21/3/5",
+            "dmg_share": 64.5,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        },
+        {
+            "result": "WIN",
+            "player": "Kukii07",
+            "kda_str": "17/4/11",
+            "dmg_share": 33.6,
+            "op_score": 10.0,
+            "verdict": "\ud83d\udc51 1v9 CARRY"
+        }
+    ]
+}
