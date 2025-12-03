@@ -1,0 +1,570 @@
+
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Rapport Aatrox - 77.8% WR</title>
+        <style>
+            :root { --bg: #121212; --card: #1e1e1e; --win: #5383e8; --lose: #e84057; --text: #e0e0e0; --gold: #ffb900; }
+            body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 40px; }
+            .container { max-width: 900px; margin: 0 auto; }
+            
+            /* HEADER */
+            .header { background: var(--card); padding: 30px; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border: 1px solid #333; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+            .title h1 { margin: 0; font-size: 2rem; }
+            .subtitle { color: #888; margin-top: 5px; }
+            .wr-box { text-align: right; }
+            .wr-big { font-size: 3rem; font-weight: bold; color: #5383e8; }
+            .wr-sub { color: #888; }
+
+            /* TABLE */
+            .game-list { display: flex; flex-direction: column; gap: 10px; }
+            .game-row { display: flex; align-items: center; background: var(--card); padding: 15px 20px; border-radius: 8px; border-left: 6px solid #444; transition: transform 0.1s; }
+            .game-row:hover { transform: scale(1.01); background: #252525; }
+            
+            .game-win { border-color: var(--win); background: linear-gradient(90deg, rgba(40,52,78,1) 0%, rgba(30,30,30,1) 40%); }
+            .game-lose { border-color: var(--lose); background: linear-gradient(90deg, rgba(89,52,59,1) 0%, rgba(30,30,30,1) 40%); }
+
+            .col-res { width: 80px; font-weight: bold; font-size: 1.1rem; }
+            .text-win { color: var(--win); } .text-lose { color: var(--lose); }
+            
+            .col-champ { width: 60px; }
+            .champ-img { width: 48px; height: 48px; border-radius: 50%; border: 2px solid #333; }
+            
+            .col-player { width: 140px; font-weight: bold; }
+            .tag-me { background: #3a3a45; padding: 2px 6px; border-radius: 4px; font-size: 0.8rem; color: #fff; }
+
+            .col-kda { width: 120px; text-align: center; }
+            .kda-main { font-size: 1.1rem; font-weight: bold; letter-spacing: 1px; }
+            .kda-sub { font-size: 0.8rem; color: #888; }
+            .death { color: var(--lose); }
+
+            .col-stats { width: 140px; font-size: 0.9rem; color: #aaa; border-left: 1px solid #333; padding-left: 15px; }
+            .highlight { color: #fff; font-weight: bold; }
+
+            .col-verdict { flex: 1; text-align: right; }
+            .badge { padding: 6px 12px; border-radius: 20px; font-weight: bold; font-size: 0.85rem; text-transform: uppercase; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+            
+            /* VERDICT COLORS */
+            .v-carry { background: linear-gradient(135deg, #ffd700, #e19205); color: #000; border: 1px solid #fff; }
+            .v-solid { background: #2e7d32; color: #fff; }
+            .v-passenger { background: #424242; color: #aaa; border: 1px solid #555; }
+            .v-lucky { background: #00695c; color: #fff; }
+            .v-svp { background: #6a1b9a; color: #fff; border: 1px solid #9c27b0; }
+            .v-feeder { background: #c62828; color: #fff; }
+            .v-diff { background: #d32f2f; color: #fff; }
+            .v-invisible { background: #212121; color: #444; border: 1px dashed #444; }
+
+            .dmg-bar-bg { width: 100%; height: 4px; background: #333; margin-top: 5px; border-radius: 2px; }
+            .dmg-bar-fill { height: 100%; background: var(--lose); border-radius: 2px; }
+
+            .items { margin-top: 5px; display: flex; gap: 2px; }
+            .item-img { width: 20px; height: 20px; border-radius: 3px; border: 1px solid #333; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="title">
+                    <h1>Analyse Aatrox</h1>
+                    <div class="subtitle">Sur les 50 dernières Ranked (Solo/Flex)</div>
+                </div>
+                <div class="wr-box">
+                    <div class="wr-big">77.8%</div>
+                    <div class="wr-sub">14W - 4L</div>
+                </div>
+            </div>
+
+            <div class="game-list">
+    
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">03/12 07:31</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                ElManipulus 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6701.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1037.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1036.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">9 / <span class="death">5</span> / 12</div>
+                <div class="kda-sub">4.2 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">26.7%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 26.7%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 60.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-solid">💪 Solid Carry</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 7.689</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">03/12 06:57</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                ElManipulus 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3173.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3026.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">11 / <span class="death">7</span> / 20</div>
+                <div class="kda-sub">4.43 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">28.7%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 28.7%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 57.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-solid">💪 Solid Carry</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 6.884</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">01/12 07:06</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3047.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3035.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">12 / <span class="death">7</span> / 14</div>
+                <div class="kda-sub">3.71 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">28.6%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 28.6%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 67.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 7.432</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">01/12 04:20</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3134.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">12 / <span class="death">3</span> / 9</div>
+                <div class="kda-sub">7.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">32.9%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 32.9%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 68.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 9.56</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">01/12 03:49</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3173.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3133.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">19 / <span class="death">3</span> / 8</div>
+                <div class="kda-sub">9.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">46.0%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 46.0%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 84.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">01/12 03:15</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1029.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">14 / <span class="death">4</span> / 4</div>
+                <div class="kda-sub">4.5 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">31.8%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 31.8%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 49.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-solid">💪 Solid Carry</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 8.227</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">28/11 08:00</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3173.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3134.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1036.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">10 / <span class="death">5</span> / 15</div>
+                <div class="kda-sub">5.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">32.8%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 32.8%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 60.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 8.823</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">28/11 07:29</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/2019.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3173.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">18 / <span class="death">13</span> / 9</div>
+                <div class="kda-sub">2.08 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">39.7%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 39.7%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 57.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-solid">💪 Solid Carry</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 5.849</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">28/11 06:45</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                LSTR 512 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6694.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3173.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">30 / <span class="death">6</span> / 9</div>
+                <div class="kda-sub">6.5 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">40.2%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 40.2%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 66.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-lose">
+            <div class="col-res">
+                <div class="text-lose">DÉFAITE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">27/11 08:41</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3161.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3035.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">7 / <span class="death">7</span> / 2</div>
+                <div class="kda-sub">1.29 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">24.5%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 24.5%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 50.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-diff">❌ Diff Top</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 4.855</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">25/11 06:14</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">15 / <span class="death">4</span> / 9</div>
+                <div class="kda-sub">6.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">33.6%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 33.6%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 62.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-lose">
+            <div class="col-res">
+                <div class="text-lose">DÉFAITE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">25/11 05:47</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3133.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1036.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">7 / <span class="death">9</span> / 5</div>
+                <div class="kda-sub">1.33 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">25.8%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 25.8%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 50.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-feeder">🤡 FEEDER</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 4.653</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">25/11 05:10</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3111.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">17 / <span class="death">2</span> / 7</div>
+                <div class="kda-sub">12.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">45.3%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 45.3%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 69.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-lose">
+            <div class="col-res">
+                <div class="text-lose">DÉFAITE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">25/11 04:44</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3047.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3143.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3053.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3065.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">19 / <span class="death">11</span> / 11</div>
+                <div class="kda-sub">2.73 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">34.5%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 34.5%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 62.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-svp">💀 SVP (Team Gap)</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 6.703</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">24/11 08:08</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3047.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1036.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">14 / <span class="death">1</span> / 11</div>
+                <div class="kda-sub">25.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">34.7%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 34.7%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 57.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-lose">
+            <div class="col-res">
+                <div class="text-lose">DÉFAITE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">24/11 07:37</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3047.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3156.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3026.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">8 / <span class="death">8</span> / 9</div>
+                <div class="kda-sub">2.12 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">32.6%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 32.6%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 57.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-svp">💀 SVP (Team Gap)</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 5.206</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">24/11 06:53</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6698.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6610.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3174.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1036.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">21 / <span class="death">3</span> / 5</div>
+                <div class="kda-sub">8.67 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">64.5%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 64.5%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 93.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+        <div class="game-row game-win">
+            <div class="col-res">
+                <div class="text-win">VICTOIRE</div>
+                <div style="font-size:0.75rem; color:#666; font-weight:normal;">24/11 06:23</div>
+            </div>
+            <div class="col-champ">
+                <img src="https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/266.png" class="champ-img">
+            </div>
+            <div class="col-player">
+                Kukii07 
+                <div class="items"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6699.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6697.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/6698.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/3047.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/2021.png" class="item-img"><img src="https://ddragon.leagueoflegends.com/cdn/14.23.1/img/item/1037.png" class="item-img"></div>
+            </div>
+            <div class="col-kda">
+                <div class="kda-main">17 / <span class="death">4</span> / 11</div>
+                <div class="kda-sub">7.0 KDA</div>
+            </div>
+            <div class="col-stats">
+                <div>Dégâts: <span class="highlight">33.6%</span></div>
+                <div class="dmg-bar-bg"><div class="dmg-bar-fill" style="width: 33.6%"></div></div>
+                <div style="margin-top:4px;">P/Kill: 61.0%</div>
+            </div>
+            <div class="col-verdict">
+                <span class="badge v-carry">👑 1v9 HARD CARRY</span>
+                <div style="font-size:0.8rem; color:#666; margin-top:5px;">OP Score 10.0</div>
+            </div>
+        </div>
+        
+            </div>
+        </div>
+    </body>
+    </html>
+    
